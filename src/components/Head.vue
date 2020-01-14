@@ -1,6 +1,6 @@
 <template>
     <div class="bar_head">
-        <router-link to="/" id="title">portFolio2</router-link>
+        <router-link to="/" id="title">portFolio</router-link>
         <a id="profile">taese0ng</a>
     </div>
 </template>
