@@ -20,7 +20,7 @@
 }
 #profile{
     margin-right: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: rgb(255,255,255);
     font-weight: 500;
     font-size: 20px;
