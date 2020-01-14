@@ -39,4 +39,14 @@ export default {
   font-weight:500;
   width: 100vw;
 }
+
+.profileImg{
+  width: 140px;
+  height: 140px;
+  border: 2px solid rgb(54,54,54);
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -khtml-border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
 </style>
