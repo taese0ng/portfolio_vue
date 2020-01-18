@@ -8,10 +8,9 @@
       학과 : 
       <a href="http://ce.kumoh.ac.kr/ce/index.do" target="_blank" rel="noopener">컴퓨터공학과</a>
     </p>
-    <h3>My Pages</h3>
+    <h3>GitHubPage</h3>
     <ul>
       <li><a href="https://github.com/taese0ng?tab=repositories" target="_blank" rel="noopener">GitHub</a></li>
-      <li><a href="http://git.kumoh.ac.kr/taese0ng/osp19-siserie.git" target="_blank" rel="noopener">GitLab-Opensource</a></li>
     </ul>
   </div>
 </template>
