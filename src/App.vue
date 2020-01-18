@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <Head></Head>
+    <Profile class="profileCard"/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Profile from '@/components/ProfileCard.vue'
 import Head from '@/components/Head'   
 export default {
     components:{ 
-      Head 
+      Head,
+      Profile,
     }
 }
 </script>
@@ -41,12 +44,20 @@ export default {
 }
 
 .profileImg{
-  width: 140px;
-  height: 140px;
+  min-width: 120px;
+  width: 13vw;
+  max-width: 160px;
+  height: 13vw;
+  min-height: 120px;
+  max-height: 160px;
   border: 2px solid rgb(54,54,54);
   border-radius: 100px;
   -moz-border-radius: 100px;
   -khtml-border-radius: 100px;
   -webkit-border-radius: 100px;
+}
+
+.profileCard{
+  margin-top: 120px;
 }
 </style>

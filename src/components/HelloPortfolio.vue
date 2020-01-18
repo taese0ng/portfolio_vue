@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <p>
       소속 : 
       <a href="http://kumoh.ac.kr/ko/index.do" target="_blank" rel="noopener">금오공과대학교(Kumoh National Institute of Technology)</a>
@@ -17,10 +16,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
 }
 </script>
 
