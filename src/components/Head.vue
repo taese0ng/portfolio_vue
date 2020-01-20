@@ -16,7 +16,6 @@
     text-decoration: none;
     color: rgb(255,255,255);
     margin-left: 10px;
-    cursor: pointer;
 }
 #profile{
     margin-right: 10px;

@@ -5,7 +5,6 @@
 </template>
 
 <script>
-
 import HelloPortfolio from '@/components/HelloPortfolio.vue'
 export default {
   name: 'home',
