@@ -5,12 +5,23 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    test: "@/assets/BM.png",
+    Prize: [
+      {
+        id: 1,
+        name: "BM",
+        image: require("@/assets/Prize/BM.png")
+      }
+    ]
   },
-  mutations: {
-
+  getters: {
+    getPrize(state) {
+      return state.Prize;
+    },
+    getTest(state){
+      return state.test;
+    }
   },
-  actions: {
-
-  }
-})
+  mutations: {},
+  actions: {}
+});

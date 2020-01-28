@@ -1,7 +1,7 @@
 <template>
     <div>
         <img class="profileImg" alt="ProfileImg" src="@/assets/ProfileImg.png">
-        <h1>taese0ng's portFolio.</h1>
+        <h2>김태성</h2>
     </div>
 </template>
 

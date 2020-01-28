@@ -7,6 +7,9 @@
             <td>
                 <router-link to="/about" class="router-link">About</router-link>
             </td>
+            <td>
+                <router-link to="/performance" class="router-link">Performance</router-link>
+            </td>
         </table>
     </div>
 </template>
