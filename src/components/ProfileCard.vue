@@ -12,4 +12,9 @@
 </script>
 
 <style scoped>
+@media(max-width:750px){
+    h2{
+        font-size: 22px;
+    }
+}
 </style>

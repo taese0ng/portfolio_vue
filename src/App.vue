@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Head></Head>
+    <Head class="bar_head"/>
     <Profile class="profileCard"/>
     <Menu/>
     <router-view/>
@@ -31,10 +31,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-top: 44px;
 }
 
 
 .bar_head{
+  position:fixed;
+  top: 0;
+  height: 27px;
   display:flex;
   background-color: rgb(54,54,54);
   color: rgb(255,255,255);
@@ -43,7 +47,7 @@ export default {
   padding-top: 8px;
   padding-bottom: 8px;
   font-weight:500;
-  width: 100vw;
+  width: 100%;
 }
 
 .profileImg{
@@ -61,7 +65,7 @@ export default {
 }
 
 .profileCard{
-  margin-top: 120px;
+  padding-top: 80px;
 }
 
 .router-link{
@@ -77,6 +81,14 @@ export default {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-  font-size: 20px;
+  font-size: 22px;
+}
+@media(max-width:750px){
+  .profileCard{
+    padding-top: 40px;
+  }
+  .menu .router-link-exact-active{
+    font-size: 6vw;
+  }
 }
 </style>

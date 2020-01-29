@@ -3,12 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import VModal from 'vue-js-modal'
 
-import "font-awesome/css/font-awesome.min.css";
-Vue.component(
-  "VueFontawesome",
-  require("vue-fontawesome-icon/src/components/VueFontawesome.vue").default
-);
+Vue.use(VModal)
+
 
 Vue.config.productionTip = false
 

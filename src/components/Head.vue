@@ -1,5 +1,5 @@
 <template>
-    <div class="bar_head">
+    <div>
         <router-link to="/" id="title">portFolio</router-link>
         <a id="profile">taese0ng</a>
     </div>

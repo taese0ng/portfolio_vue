@@ -9,9 +9,9 @@ export default new Vuex.Store({
     Prize: [
       {
         id: 1,
-        name: "BM",
+        name: "BM공모전 대상",
         image: require("@/assets/Prize/BM.png")
-      }
+      },
     ]
   },
   getters: {
@@ -22,6 +22,8 @@ export default new Vuex.Store({
       return state.test;
     }
   },
-  mutations: {},
+  mutations: {
+    
+  },
   actions: {}
 });

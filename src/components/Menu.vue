@@ -28,13 +28,18 @@
     margin: auto;
     display: table;
     margin-top:10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .router-link{
-    font-size: 17px;
+    font-size: 19px;
     font-weight: bold;
 }
 td{
     width: 80px;
+}
+@media(max-width:750px){
+    .router-link{
+        font-size: 5vw;
+    }
 }
 </style>
