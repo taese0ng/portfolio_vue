@@ -10,6 +10,9 @@
             <td>
                 <router-link to="/performance" class="router-link">Performance</router-link>
             </td>
+            <td>
+                <router-link to="/language" class="router-link">Language</router-link>
+            </td>
         </table>
     </div>
 </template>
@@ -31,15 +34,24 @@
     margin-bottom: 30px;
 }
 .router-link{
-    font-size: 19px;
+    text-align: center;
+    font-size: 22px;
     font-weight: bold;
 }
-td{
-    width: 80px;
+table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
 }
-@media(max-width:750px){
+td{
+    display: table-cell;
+}
+@media(max-width:500px){
     .router-link{
-        font-size: 5vw;
+        font-size: 16px;
+    }
+    table{
+        table-layout: auto;
     }
 }
 </style>

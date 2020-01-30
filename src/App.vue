@@ -81,14 +81,14 @@ export default {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-  font-size: 22px;
+  font-size: 24px;
 }
-@media(max-width:750px){
+@media(max-width:500px){
   .profileCard{
     padding-top: 40px;
   }
   .menu .router-link-exact-active{
-    font-size: 6vw;
+    font-size: 18px;
   }
 }
 </style>

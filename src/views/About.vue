@@ -18,12 +18,12 @@ img{
   width: 120px;
   height: 120px;
 }
-@media(max-width:750px){
+@media(max-width:500px){
   h1{
-    font-size: 8vw;
+    font-size: 25px;
   }
   h2{
-    font-size: 6vw;
+    font-size: 20px;
   }
   img{
     margin: 20px;

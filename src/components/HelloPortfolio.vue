@@ -38,18 +38,20 @@ a {
   margin-left: 20px;
   color: black;
   text-decoration: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 1px;
   font-weight: bold;
   font-size: 18px;
 }
 li{
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   list-style: none;
 }
 
 #icon{
   font-size: 35px;
 }
-@media(min-width:750px){
+@media(min-width:500px){
   .hello{
       position: absolute;
       left: 50%;
@@ -57,17 +59,18 @@ li{
       text-align: left;
     }
 }
-@media(max-width: 750px){
+@media(max-width: 500px){
   .hello{
-    margin-left: 15vw;
+    position: absolute;
+    left: 25%;
     text-align: left;
   }
   #icon{
-    font-size: 7vw;
+    font-size: 22px;
   }
   a {
     margin-left: 13px;
-    font-size: 5vw;
+    font-size: 15px;
   }
   li{
     margin-bottom: 30px;

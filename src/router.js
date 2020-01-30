@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Performance from './views/Performance.vue'
+import Language from './views/Language.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -25,6 +26,11 @@ export default new Router({
       path:'/performance',
       name:'performance',
       component : Performance
+    },
+    {
+      path: '/language',
+      name: 'language',
+      component: Language
     }
   ]
 })

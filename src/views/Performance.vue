@@ -9,7 +9,7 @@
         <table class="prize">
             <td @click="modal_show(prize.image)" class="item" v-for="prize in getPrize" :key="prize.id">
                 <div class="prizeImg">
-                    <img class="img" :src="prize.image">
+                    <img :src="prize.image">
                 </div>
                 <li>{{ prize.name }}</li>
             </td>
@@ -40,7 +40,7 @@ export default {
             this.image = event.params.foo;
         },
         isMobile() {
-            if( screen.width <= 760 ) {
+            if( screen.width <= 500 ) {
                 return true;
             }
             else {
@@ -91,12 +91,12 @@ li{
 .prize{
     margin: auto;
 }
-@media(max-width:750px){
+@media(max-width:500px){
     #closeBtn{
         font-size: 35px;
     }
     li{
-        font-size: 6vw;
+        font-size: 18px;
     }
 }
 </style>
