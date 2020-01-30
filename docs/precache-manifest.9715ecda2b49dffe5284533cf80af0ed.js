@@ -60,8 +60,12 @@ self.__precacheManifest = [
     "url": "/portfolio/img/MySQL.f0169407.png"
   },
   {
-    "revision": "fc39fe0e6af10a4429e56dc12e88355f",
+    "revision": "56fac0fc17025824fcde1b3df8c108a1",
     "url": "/portfolio/index.html"
+  },
+  {
+    "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
+    "url": "/portfolio/favicon_vue.ico"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
