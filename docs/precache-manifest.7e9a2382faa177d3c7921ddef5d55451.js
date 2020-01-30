@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8402b7f3fee4de967b0e",
+    "revision": "b4ec57076d1b678fda01",
     "url": "/portfolio/css/about.bf04b581.css"
   },
   {
-    "revision": "8402b7f3fee4de967b0e",
-    "url": "/portfolio/js/about.062b22a2.js"
+    "revision": "b4ec57076d1b678fda01",
+    "url": "/portfolio/js/about.ab1ced3d.js"
   },
   {
-    "revision": "c39401fb2c4b381acbad",
+    "revision": "9bdb021b864e3bd1f42b",
     "url": "/portfolio/css/app.72aea96e.css"
   },
   {
-    "revision": "c39401fb2c4b381acbad",
-    "url": "/portfolio/js/app.20928241.js"
+    "revision": "9bdb021b864e3bd1f42b",
+    "url": "/portfolio/js/app.9f9e9940.js"
   },
   {
     "revision": "48df952fd2d50c17c2c4",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/portfolio/img/MySQL.f0169407.png"
   },
   {
-    "revision": "56fac0fc17025824fcde1b3df8c108a1",
+    "revision": "e239923ae4044666130b837bdaae63a9",
     "url": "/portfolio/index.html"
   },
   {

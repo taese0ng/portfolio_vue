@@ -14,6 +14,11 @@ export default new Vuex.Store({
     ],
     Languages: [
       {
+        id:0,
+        name:"Vue",
+        image: require("@/assets/icons/vuejs_icon.png")
+      },
+      {
         id:1,
         name: "HTML",
         image: require("@/assets/icons/HTML.png")
