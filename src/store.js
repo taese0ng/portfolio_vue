@@ -11,6 +11,11 @@ export default new Vuex.Store({
         name: "BM공모전 대상",
         image: require("@/assets/Prize/BM.png")
       },
+      {
+        id: 2,
+        name: "논문경진대회 은상",
+        image: require('@/assets/Prize/Paper.png')
+      },
     ],
     Languages: [
       {
