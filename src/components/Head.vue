@@ -5,7 +5,9 @@
             <span v-show="getMenuOpen==false"><i class="fas fa-caret-right" ></i></span>
             <span v-show="getMenuOpen"><i class="fas fa-caret-left" ></i></span>
         </span>
-        <router-link to="/" id="title">portFolio</router-link>
+        <span @click="goHome('Home')">
+            <router-link to="/" id="title">portFolio</router-link>
+        </span>
     </div>
 </template>
 
@@ -27,7 +29,11 @@ export default {
         ...mapGetters(['getMenuOpen'])
     },
     methods: {
-        ...mapMutations(['turnMenu'])
+        ...mapMutations(['turnMenu', 'changePage']),
+        goHome(name){
+            this.turnMenu();
+            this.changePage(name);
+        }
     },
 }
 </script>

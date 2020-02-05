@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/portfolio/js/about.b495133d.js"
   },
   {
-    "revision": "bce12f11e43f769e6519",
-    "url": "/portfolio/css/app.9f0bbc71.css"
+    "revision": "8299eed41ccc748cd1e3",
+    "url": "/portfolio/css/app.8c0caf10.css"
   },
   {
-    "revision": "bce12f11e43f769e6519",
-    "url": "/portfolio/js/app.69b9bdcc.js"
+    "revision": "8299eed41ccc748cd1e3",
+    "url": "/portfolio/js/app.9f601a90.js"
   },
   {
     "revision": "030b8b4893afa58d8a97",
@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/portfolio/img/MySQL.f0169407.png"
   },
   {
-    "revision": "3ce53297954aec7e932195234dcd62bc",
+    "revision": "9d69e6aa8f2393e6eef194e252d0861c",
     "url": "/portfolio/index.html"
-  },
-  {
-    "revision": "590aad8eecf220ca478ca1b2e5b731ff",
-    "url": "/portfolio/custom_icons/android-icon-36x36.png"
   },
   {
     "revision": "7f2faddef3f7016964c394831bc1863a",
     "url": "/portfolio/custom_icons/android-icon-192x192.png"
+  },
+  {
+    "revision": "590aad8eecf220ca478ca1b2e5b731ff",
+    "url": "/portfolio/custom_icons/android-icon-36x36.png"
   },
   {
     "revision": "497364a9254b457890e1ad9b0f6fdfc2",
@@ -84,16 +84,16 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/android-icon-144x144.png"
   },
   {
-    "revision": "93478bcaee42499cc4bae5516a5ac179",
-    "url": "/portfolio/custom_icons/android-icon-72x72.png"
-  },
-  {
     "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
     "url": "/portfolio/custom_icons/android-icon-96x96.png"
   },
   {
     "revision": "16d6d98c6535f6f72c0c87683b19855a",
     "url": "/portfolio/custom_icons/apple-icon-120x120.png"
+  },
+  {
+    "revision": "93478bcaee42499cc4bae5516a5ac179",
+    "url": "/portfolio/custom_icons/android-icon-72x72.png"
   },
   {
     "revision": "60af1d110a28493b787cc9183c79589d",
@@ -116,10 +116,6 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/apple-icon-180x180.png"
   },
   {
-    "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
-    "url": "/portfolio/custom_icons/apple-icon-76x76.png"
-  },
-  {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/apple-icon-72x72.png"
   },
@@ -128,16 +124,20 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/apple-icon-60x60.png"
   },
   {
+    "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
+    "url": "/portfolio/custom_icons/apple-icon-76x76.png"
+  },
+  {
     "revision": "542ca6e9cff0fdf742d43861f6489bca",
     "url": "/portfolio/custom_icons/apple-icon-precomposed.png"
   },
   {
-    "revision": "542ca6e9cff0fdf742d43861f6489bca",
-    "url": "/portfolio/custom_icons/apple-icon.png"
-  },
-  {
     "revision": "653d077300a12f09a69caeea7a8947f8",
     "url": "/portfolio/custom_icons/browserconfig.xml"
+  },
+  {
+    "revision": "542ca6e9cff0fdf742d43861f6489bca",
+    "url": "/portfolio/custom_icons/apple-icon.png"
   },
   {
     "revision": "86990a5d91d17eda2e4457eeaed63c1b",
@@ -148,12 +148,16 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/favicon-16x16.png"
   },
   {
+    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
+    "url": "/portfolio/custom_icons/favicon-96x96.png"
+  },
+  {
     "revision": "60af1d110a28493b787cc9183c79589d",
     "url": "/portfolio/custom_icons/ms-icon-144x144.png"
   },
   {
-    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
-    "url": "/portfolio/custom_icons/favicon-96x96.png"
+    "revision": "0251e57951a2c7c9e2177fd28d679daf",
+    "url": "/portfolio/custom_icons/ms-icon-150x150.png"
   },
   {
     "revision": "2c8e338b2c94119aed4c96f3a9bb012e",
@@ -164,10 +168,6 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/ms-icon-70x70.png"
   },
   {
-    "revision": "0251e57951a2c7c9e2177fd28d679daf",
-    "url": "/portfolio/custom_icons/ms-icon-150x150.png"
-  },
-  {
     "revision": "5e0bc4793a5219ffbb040e99a58c4543",
     "url": "/portfolio/favicon.png"
   },
@@ -176,11 +176,11 @@ self.__precacheManifest = [
     "url": "/portfolio/favicon2.ico"
   },
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "/portfolio/robots.txt"
-  },
-  {
     "revision": "cb4f140092ead96b865b83ef064c36ae",
     "url": "/portfolio/manifest2.json"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "/portfolio/robots.txt"
   }
 ];
