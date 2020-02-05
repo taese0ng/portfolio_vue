@@ -5,6 +5,31 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    NowPage: 'Home',
+    MenuOpen : false,
+    Menu:[
+      {
+        id:1,
+        name:"Home",
+        to: "/"
+      },
+      {
+        id:2,
+        name:"About",
+        to: "/about"
+      },
+      {
+        id:3,
+        name:"Performance",
+        to: "/performance"
+      },
+      {
+        id:4,
+        name:"Language",
+        to: "/language"
+      }
+
+    ],
     Prize: [
       {
         id: 1,
@@ -56,15 +81,29 @@ export default new Vuex.Store({
     ]
   },
   getters: {
+    getMenuOpen(state){
+      return state.MenuOpen
+    },
     getPrize(state) {
-      return state.Prize;
+      return state.Prize
     },
     getLanguage(state){
-      return state.Languages;
+      return state.Languages
+    },
+    getMenu(state){
+      return state.Menu
+    },
+    getPage(state){
+      return state.NowPage
     }
   },
   mutations: {
-    
+    turnMenu(state){
+      state.MenuOpen = !state.MenuOpen
+    },
+    changePage(state, Change){
+      state.NowPage = Change
+    }
   },
   actions: {}
 });

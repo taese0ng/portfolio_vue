@@ -1,21 +1,33 @@
 <template>
   <div id="app">
+    <Menu v-show="getMenuOpen"></Menu>
     <Head class="bar_head"/>
+    <div v-show="getMenuOpen" @click="menuClose" id="background"></div>
     <Profile class="profileCard"/>
-    <Menu/>
+    <div id="nowPage">- {{getPage}} -</div>
     <router-view/>
   </div>
 </template>
 
 <script>
-import Menu from '@/components/Menu.vue'
 import Profile from '@/components/ProfileCard.vue'
 import Head from '@/components/Head'   
+import Menu from '@/components/Menu'
+import {mapGetters, mapMutations} from'vuex'
 export default {
     components:{ 
       Head,
       Profile,
       Menu,
+    },
+    computed:{
+      ...mapGetters(['getMenuOpen','getPage'])
+    },
+    methods:{
+      ...mapMutations(['turnMenu']),
+      menuClose(){
+        if(this.getMenuOpen==true) this.turnMenu()
+      }
     }
 }
 </script>
@@ -34,6 +46,13 @@ export default {
   margin-top: 44px;
 }
 
+#background{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.342);
+  z-index: 998;
+}
 
 .bar_head{
   position:fixed;
@@ -48,6 +67,7 @@ export default {
   padding-bottom: 8px;
   font-weight:500;
   width: 100%;
+  z-index: 1000;
 }
 
 .profileImg{
@@ -74,21 +94,21 @@ export default {
   text-decoration: none;
 }
 
-.menu .router-link-exact-active{
-  color: rgb(255, 255, 255);
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  font-size: 24px;
+#nowPage{
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 @media(max-width:500px){
   .profileCard{
     padding-top: 40px;
+    margin-bottom: 20px;
   }
-  .menu .router-link-exact-active{
-    font-size: 18px;
+  #nowPage{
+    font-size: 7vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
 </style>

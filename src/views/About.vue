@@ -19,16 +19,20 @@ img{
   height: 120px;
 }
 @media(max-width:500px){
+  .about{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   h1{
-    font-size: 25px;
+    font-size: 6.5vw;
   }
   h2{
-    font-size: 20px;
+    font-size: 5vw;
   }
   img{
     margin: 20px;
-    width: 100px;
-    height: 100px;
+    width: 25vw;
+    height: 25vw;
   }
 }
 </style>

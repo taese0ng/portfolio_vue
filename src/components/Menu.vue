@@ -1,57 +1,80 @@
 <template>
     <div class="menu">
-        <table>
-            <td>
-                <router-link to="/" class="router-link">Home</router-link>
-            </td>
-            <td>
-                <router-link to="/about" class="router-link">About</router-link>
-            </td>
-            <td>
-                <router-link to="/performance" class="router-link">Performance</router-link>
-            </td>
-            <td>
-                <router-link to="/language" class="router-link">Language</router-link>
-            </td>
-        </table>
+        <li v-for="menu in getMenu" :key="menu.id"  @click="menuClick(menu.name)">
+        <router-link 
+         :to="menu.to" class="router-link" 
+        >
+        {{menu.name}}
+        </router-link>
+        </li>
     </div>
 </template>
 
 <script>
+import { mapGetters, mapMutations } from 'vuex'
     export default {
-        
+        computed:{
+            ...mapGetters(['getMenu'])
+        },
+        methods: {
+            ...mapMutations(['turnMenu', 'changePage']),
+            menuClick(name){
+                this.turnMenu();
+                this.changePage(name);
+            }
+        },
     }
 </script>
 
 <style scoped>
-#table{
-    display: table-cell;
-}
 .menu{
-    margin: auto;
-    display: table;
-    margin-top:10px;
-    margin-bottom: 30px;
+    position: fixed;
+    background: rgba(238, 236, 236, 0.877);
+    text-align: left;
+    z-index: 999;
 }
-.router-link{
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
+li{
+    cursor: pointer;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-table{
-    table-layout: fixed;
-    width: 100%;
-    text-align: center;
+.menu .router-link-exact-active{
+  color: rgb(255, 255, 255);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 24px;
 }
-td{
-    display: table-cell;
+@media(min-width:500px){
+    .menu{
+        height: auto;
+        width: 200px;
+        height: 100%;
+    }
+    li{
+        padding-left: 30px;
+    }
 }
 @media(max-width:500px){
-    .router-link{
-        font-size: 16px;
+    .menu{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 15px;
     }
-    table{
-        table-layout: auto;
+    li{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .menu .router-link-exact-active{
+        font-size: 7.8vw;
     }
 }
 </style>

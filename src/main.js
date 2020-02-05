@@ -5,8 +5,9 @@ import store from './store'
 import './registerServiceWorker'
 import VModal from 'vue-js-modal'
 
+import Dropdown from 'hsy-vue-dropdown'
 Vue.use(VModal)
-
+Vue.use(Dropdown)
 
 Vue.config.productionTip = false
 
