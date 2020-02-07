@@ -1,7 +1,7 @@
 <template>
     <div>
         <img class="profileImg" alt="ProfileImg" src="@/assets/ProfileImg.png">
-        <h2>김태성</h2>
+        <p>김태성</p>
     </div>
 </template>
 
@@ -12,8 +12,13 @@
 </script>
 
 <style scoped>
+p{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
 @media(max-width:500px){
-    h2{
+    p{
         font-size: 22px;
     }
 }

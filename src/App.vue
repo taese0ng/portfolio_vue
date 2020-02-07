@@ -1,11 +1,16 @@
 <template>
   <div id="app">
-    <Menu v-show="getMenuOpen"></Menu>
     <Head class="bar_head"/>
-    <div v-show="getMenuOpen" @click="menuClose" id="background"></div>
+    <transition name="drop-down">
+      <Menu v-show="getMenuOpen"></Menu>
+    </transition>
+    <transition name="fade">
+      <div v-show="getMenuOpen" @click="menuClose" id="background"></div>
+    </transition>
     <Profile class="profileCard"/>
-    <div id="nowPage">- {{getPage}} -</div>
-    <router-view/>
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -37,13 +42,48 @@ export default {
   margin: 0;
 }
 
+@font-face {
+  font-family: Nanumsquare;
+  src: url('./assets/fonts/NanumSquareOTF_acB.otf');
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Nanumsquare;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 44px;
+}
+
+.drop-down-enter-active {
+  animation: drop-down 0.5s;
+}
+
+.drop-down-leave-active {
+  animation: drop-down 0.5s reverse;
+}
+
+@keyframes drop-down {
+  from {
+    transform: scaley(0) translate3d(0, -100vh, 0);
+    height: 0;
+  }
+  to {
+    transform: scaley(1) translate3d(0, 0, 0);
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 
 #background{
@@ -63,20 +103,16 @@ export default {
   color: rgb(255,255,255);
   font-size: 20px;
   justify-content: space-between;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   font-weight:500;
   width: 100%;
   z-index: 1000;
 }
 
 .profileImg{
-  min-width: 120px;
-  width: 13vw;
-  max-width: 160px;
-  height: 13vw;
-  min-height: 120px;
-  max-height: 160px;
+  width: 150px;
+  height: 150px;
   border: 2px solid rgb(54,54,54);
   border-radius: 100px;
   -moz-border-radius: 100px;
@@ -101,12 +137,16 @@ export default {
   margin-bottom: 40px;
 }
 @media(max-width:500px){
+  .profileImg{
+    width: 120px;
+    height: 120px;
+  }
   .profileCard{
     padding-top: 40px;
     margin-bottom: 20px;
   }
   #nowPage{
-    font-size: 7vw;
+    font-size: 6.5vw;
     margin-top: 20px;
     margin-bottom: 30px;
   }

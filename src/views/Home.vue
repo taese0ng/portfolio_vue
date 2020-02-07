@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <div id="nowPage">- Home -</div>
     <HelloPortfolio/>
   </div>
 </template>

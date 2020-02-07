@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <div id="nowPage">- About -</div>
     <h1>김태성의 포트폴리오입니다.</h1>
     <h2>This page was created with vue.js</h2>
     <h2>with github pages</h2>

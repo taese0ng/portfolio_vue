@@ -1,5 +1,6 @@
 <template>
     <div>
+        <div id="nowPage">- Performance -</div>
         <modal v-if="!isMobile()" name="prize" width="35%" height="auto" @before-open="beforeOpen" :scrollable="true">
             <img id="modalImg" :src='image'>
         </modal>

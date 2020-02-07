@@ -2,8 +2,8 @@
     <div>
         <span id="menu" @click="turnMenu">
             Menu
-            <span v-show="getMenuOpen==false"><i class="fas fa-caret-right" ></i></span>
-            <span v-show="getMenuOpen"><i class="fas fa-caret-left" ></i></span>
+            <span v-show="getMenuOpen==false"><i class="fas fa-caret-down" ></i></span>
+            <span v-show="getMenuOpen"><i class="fas fa-caret-up" ></i></span>
         </span>
         <span @click="goHome('Home')">
             <router-link to="/" id="title">portFolio</router-link>
@@ -31,7 +31,9 @@ export default {
     methods: {
         ...mapMutations(['turnMenu', 'changePage']),
         goHome(name){
-            this.turnMenu();
+            if(this.getMenuOpen == true){
+                this.turnMenu();
+            }
             this.changePage(name);
         }
     },
@@ -39,6 +41,7 @@ export default {
 </script>
 
 <style scoped>
+
 #title{
     text-decoration: none;
     color: rgb(255,255,255);

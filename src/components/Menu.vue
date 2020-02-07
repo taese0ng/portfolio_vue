@@ -32,6 +32,7 @@ import { mapGetters, mapMutations } from 'vuex'
     background: rgba(238, 236, 236, 0.877);
     text-align: left;
     z-index: 999;
+    overflow: auto;
 }
 li{
     cursor: pointer;

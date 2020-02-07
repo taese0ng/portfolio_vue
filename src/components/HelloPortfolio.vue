@@ -1,31 +1,21 @@
 <template>
   <div class="hello">
-      <li>
-          <i id="icon" class="fas fa-university"></i>
-          <a href="http://kumoh.ac.kr/ko/index.do" target="_blank" rel="noopener">금오공과대학교 (KIT)</a>
-      </li>
-      <li>
-          <i id="icon" class="fas fa-book"></i>
-          <a href="http://ce.kumoh.ac.kr/ce/index.do" target="_blank" rel="noopener">컴퓨터공학과 (CE)</a>
-      </li>
-      <li>
-          <i id="icon" class="fas fa-envelope"></i>
-          <a href="mailto:taese0ng@naver.com" rel="noopener">taese0ng@naver.com</a>
-      </li>
-      <li>
-          <i id="icon" class="fab fa-github"></i>
-          <a href="https://github.com/taese0ng?tab=repositories" target="_blank" rel="noopener">taese0ng</a>
-      </li>
-      <li>
-          <i id="icon" class="fab fa-instagram"></i>
-          <a href="https://www.instagram.com/taese0_0ng/" target="_blank" rel="noopener">#taese0_0ng</a>
+      <li v-for="link in getLink" :key="link.id">
+          <i id="icon" :class="link.icon"></i>
+          <span id="line">
+            <a :href="link.href" :target="link.target" :rel="link.rel">{{ link.name }}</a>
+          </span>
       </li>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 export default {
   name: 'HelloWorld',
+  computed:{
+    ...mapGetters(['getLink'])
+  },
   methods: {
     
   },
@@ -34,8 +24,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.hello{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+
 a {
-  margin-left: 20px;
+  display:table-cell;
+  vertical-align: middle;
   color: black;
   text-decoration: none;
   border-bottom: 2px solid black;
@@ -43,6 +41,7 @@ a {
   font-weight: bold;
   font-size: 18px;
 }
+
 li{
   margin-bottom: 25px;
   list-style: none;
@@ -50,23 +49,22 @@ li{
 
 #icon{
   font-size: 35px;
+  width: 70px;
 }
-@media(min-width:500px){
-  .hello{
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      text-align: left;
-    }
+#line{
+  display: inline-block;
+  margin-left: 20px;
 }
 @media(max-width: 500px){
   .hello{
     position: absolute;
-    left: 25%;
+    left: 40%;
+    transform: translateX(-30%);
     text-align: left;
   }
   #icon{
     font-size: 22px;
+    width: 22px;
   }
   a {
     margin-left: 13px;

@@ -7,6 +7,47 @@ export default new Vuex.Store({
   state: {
     NowPage: 'Home',
     MenuOpen : false,
+    Link:[{
+      id:1,
+      icon:"fas fa-university",
+      href:"http://kumoh.ac.kr/ko/index.do",
+      target:"_blank",
+      rel:"noopener",
+      name: "금오공과대학교 (KIT)"
+    }, 
+    {
+      id: 2,
+      icon: "fas fa-book",
+      href: "http://ce.kumoh.ac.kr/ce/index.do",
+      target: "_blank",
+      rel: "noopener",
+      name: "컴퓨터공학과 (CE)"
+    },
+    {
+      id: 3,
+      icon: "fas fa-envelope",
+      href: "mailto:taese0ng@naver.com",
+      target: "",
+      rel: "noopener",
+      name: "taese0ng@naver.com"
+    },
+    {
+      id: 4,
+      icon: "fab fa-github",
+      href: "https://github.com/taese0ng?tab=repositories",
+      target: "_blank",
+      rel: "noopener",
+      name: "taese0ng"
+    },
+    {
+      id: 5,
+      icon: "fab fa-instagram",
+      href: "https://www.instagram.com/taese0_0ng/",
+      target: "_blank",
+      rel: "noopener",
+      name: "#taese0_0ng"
+    },
+  ],
     Menu:[
       {
         id:1,
@@ -95,6 +136,9 @@ export default new Vuex.Store({
     },
     getPage(state){
       return state.NowPage
+    },
+    getLink(state){
+      return state.Link
     }
   },
   mutations: {
