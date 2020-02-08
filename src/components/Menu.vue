@@ -28,11 +28,14 @@ import { mapGetters, mapMutations } from 'vuex'
 
 <style scoped>
 .menu{
-    position: fixed;
+    position:fixed;
     background: rgba(238, 236, 236, 0.877);
     text-align: left;
-    z-index: 999;
+    z-index: 999 !important;
     overflow: auto;
+    height: calc(100% - 45px);
+    height: -webkit-calc(100% - 45px);
+    height: -moz-calc(100% - 45px);
 }
 li{
     cursor: pointer;
@@ -53,9 +56,7 @@ li{
 }
 @media(min-width:500px){
     .menu{
-        height: auto;
         width: 200px;
-        height: 100%;
     }
     li{
         padding-left: 30px;
@@ -64,7 +65,6 @@ li{
 @media(max-width:500px){
     .menu{
         width: 100%;
-        height: 100%;
         text-align: center;
         padding-top: 15px;
     }

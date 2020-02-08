@@ -53,24 +53,24 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 44px;
+  margin-top: 45px;
 }
 
 .drop-down-enter-active {
-  animation: drop-down 0.5s;
+  animation: drop-down 0.4s;
 }
 
 .drop-down-leave-active {
-  animation: drop-down 0.5s reverse;
+  animation: drop-down 0.4s reverse;
 }
 
 @keyframes drop-down {
   from {
-    transform: scaley(0) translate3d(0, -100vh, 0);
+    transform: scaley(0) translate(0, 0, 0);
     height: 0;
   }
   to {
-    transform: scaley(1) translate3d(0, 0, 0);
+    transform: scaley(1) translate(0, 0, 0);
   }
 }
 
@@ -91,7 +91,7 @@ export default {
   width: 100vw;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.342);
-  z-index: 998;
+  z-index: 998 !important;
 }
 
 .bar_head{

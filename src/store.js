@@ -68,8 +68,7 @@ export default new Vuex.Store({
         id:4,
         name:"Language",
         to: "/language"
-      }
-
+      },
     ],
     Prize: [
       {
