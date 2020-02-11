@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/portfolio/js/about.7bb84bcf.js"
   },
   {
-    "revision": "fc1c08be0f1fcfffbd79",
-    "url": "/portfolio/css/app.aece708a.css"
+    "revision": "796001c3af6d4090bcce",
+    "url": "/portfolio/css/app.6c72ab70.css"
   },
   {
-    "revision": "fc1c08be0f1fcfffbd79",
-    "url": "/portfolio/js/app.c85010c8.js"
+    "revision": "796001c3af6d4090bcce",
+    "url": "/portfolio/js/app.15eda439.js"
   },
   {
     "revision": "030b8b4893afa58d8a97",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/portfolio/img/MySQL.f0169407.png"
   },
   {
-    "revision": "0b2eecc47b02222db78d12d2083f6d70",
+    "revision": "09feecdf358803d2d1c37db16e329600",
     "url": "/portfolio/index.html"
   },
   {
@@ -76,32 +76,16 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/android-icon-192x192.png"
   },
   {
-    "revision": "60af1d110a28493b787cc9183c79589d",
-    "url": "/portfolio/custom_icons/android-icon-144x144.png"
+    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
+    "url": "/portfolio/custom_icons/android-icon-48x48.png"
   },
   {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/android-icon-72x72.png"
   },
   {
-    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
-    "url": "/portfolio/custom_icons/android-icon-48x48.png"
-  },
-  {
-    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
-    "url": "/portfolio/custom_icons/android-icon-96x96.png"
-  },
-  {
-    "revision": "590aad8eecf220ca478ca1b2e5b731ff",
-    "url": "/portfolio/custom_icons/android-icon-36x36.png"
-  },
-  {
-    "revision": "3656f65ae7ea0847841f3ad886712346",
-    "url": "/portfolio/custom_icons/apple-icon-114x114.png"
-  },
-  {
-    "revision": "16d6d98c6535f6f72c0c87683b19855a",
-    "url": "/portfolio/custom_icons/apple-icon-120x120.png"
+    "revision": "60af1d110a28493b787cc9183c79589d",
+    "url": "/portfolio/custom_icons/android-icon-144x144.png"
   },
   {
     "revision": "bb31545c695a0959d4a3faa4b66fe87d",
@@ -112,20 +96,36 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/apple-icon-144x144.png"
   },
   {
+    "revision": "3656f65ae7ea0847841f3ad886712346",
+    "url": "/portfolio/custom_icons/apple-icon-114x114.png"
+  },
+  {
+    "revision": "590aad8eecf220ca478ca1b2e5b731ff",
+    "url": "/portfolio/custom_icons/android-icon-36x36.png"
+  },
+  {
+    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
+    "url": "/portfolio/custom_icons/android-icon-96x96.png"
+  },
+  {
     "revision": "40a8b28971af1f88a0db97ce4016af40",
     "url": "/portfolio/custom_icons/apple-icon-180x180.png"
+  },
+  {
+    "revision": "16d6d98c6535f6f72c0c87683b19855a",
+    "url": "/portfolio/custom_icons/apple-icon-120x120.png"
   },
   {
     "revision": "a56aa848466617225da87a5a17376cc5",
     "url": "/portfolio/custom_icons/apple-icon-57x57.png"
   },
   {
-    "revision": "74f2b1105daebd6a536ce222312c4a0a",
-    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
-  },
-  {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/apple-icon-72x72.png"
+  },
+  {
+    "revision": "74f2b1105daebd6a536ce222312c4a0a",
+    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
   },
   {
     "revision": "542ca6e9cff0fdf742d43861f6489bca",
@@ -136,12 +136,12 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/apple-icon-76x76.png"
   },
   {
-    "revision": "5e0bc4793a5219ffbb040e99a58c4543",
-    "url": "/portfolio/custom_icons/favicon-16x16.png"
-  },
-  {
     "revision": "542ca6e9cff0fdf742d43861f6489bca",
     "url": "/portfolio/custom_icons/apple-icon.png"
+  },
+  {
+    "revision": "5e0bc4793a5219ffbb040e99a58c4543",
+    "url": "/portfolio/custom_icons/favicon-16x16.png"
   },
   {
     "revision": "653d077300a12f09a69caeea7a8947f8",
@@ -152,12 +152,20 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/favicon-32x32.png"
   },
   {
-    "revision": "0251e57951a2c7c9e2177fd28d679daf",
-    "url": "/portfolio/custom_icons/ms-icon-150x150.png"
+    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
+    "url": "/portfolio/custom_icons/favicon-96x96.png"
   },
   {
     "revision": "60af1d110a28493b787cc9183c79589d",
     "url": "/portfolio/custom_icons/ms-icon-144x144.png"
+  },
+  {
+    "revision": "0251e57951a2c7c9e2177fd28d679daf",
+    "url": "/portfolio/custom_icons/ms-icon-150x150.png"
+  },
+  {
+    "revision": "2c8e338b2c94119aed4c96f3a9bb012e",
+    "url": "/portfolio/custom_icons/ms-icon-310x310.png"
   },
   {
     "revision": "781ef1840565251c30061413fb533e40",
@@ -168,16 +176,8 @@ self.__precacheManifest = [
     "url": "/portfolio/favicon.png"
   },
   {
-    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
-    "url": "/portfolio/custom_icons/favicon-96x96.png"
-  },
-  {
     "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
     "url": "/portfolio/favicon2.ico"
-  },
-  {
-    "revision": "2c8e338b2c94119aed4c96f3a9bb012e",
-    "url": "/portfolio/custom_icons/ms-icon-310x310.png"
   },
   {
     "revision": "cb4f140092ead96b865b83ef064c36ae",

@@ -64,11 +64,10 @@ li{
     .menu{
         width: 100%;
         text-align: center;
-        padding-top: 15px;
     }
     li{
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         font-size: 7vw;
         font-weight: bold;
     }
