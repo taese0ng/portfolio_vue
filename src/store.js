@@ -69,17 +69,27 @@ export default new Vuex.Store({
         name:"Language",
         to: "/language"
       },
+      {
+        id:5,
+        name:"SchoolActivities",
+        to:"/school_activities"
+      },
+      {
+        id:6,
+        name:"Self-Introduction",
+        to:"/self_introduction"
+      }
     ],
     Prize: [
       {
         id: 1,
-        name: "BM공모전 대상",
-        image: require("@/assets/Prize/BM.png")
+        name: "논문경진대회 은상",
+        image: require('@/assets/Prize/Paper.png')
       },
       {
         id: 2,
-        name: "논문경진대회 은상",
-        image: require('@/assets/Prize/Paper.png')
+        name: "BM공모전 대상",
+        image: require("@/assets/Prize/BM.png")
       },
     ],
     Languages: [

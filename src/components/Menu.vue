@@ -34,8 +34,6 @@ import { mapGetters, mapMutations } from 'vuex'
     z-index: 999 !important;
     overflow: auto;
     height: calc(100% - 45px);
-    height: -webkit-calc(100% - 45px);
-    height: -moz-calc(100% - 45px);
 }
 li{
     cursor: pointer;
@@ -56,7 +54,7 @@ li{
 }
 @media(min-width:500px){
     .menu{
-        width: 200px;
+        width: 260px;
     }
     li{
         padding-left: 30px;
