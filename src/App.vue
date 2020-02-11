@@ -66,11 +66,8 @@ export default {
 
 @keyframes drop-down {
   from {
-    transform: scaley(0) translate(0, 0, 0);
+    transform: translate(0, 0, 0);
     height: 0;
-  }
-  to {
-    transform: scaley(1) translate(0, 0, 0);
   }
 }
 
