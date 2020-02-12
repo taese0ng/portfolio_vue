@@ -40,17 +40,17 @@ li{
     list-style: none;
     font-weight: 500;
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .menu .router-link-exact-active{
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255);
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;
-  font-size: 24px;
+    1px 1px 0 #000; */
+  font-size: 28px;
 }
 @media(min-width:500px){
     .menu{
@@ -72,7 +72,7 @@ li{
         font-weight: bold;
     }
     .menu .router-link-exact-active{
-        font-size: 7.8vw;
+        font-size: 9.5vw;
     }
 }
 </style>

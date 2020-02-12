@@ -5,6 +5,7 @@ import Performance from './views/Performance.vue'
 import Language from './views/Language.vue'
 import SchoolActivities from './views/SchoolActivities.vue'
 import Self_Introduction from './views/Self_Introduction.vue'
+import Project from './views/Project'
 Vue.use(Router)
 
 export default new Router({
@@ -43,6 +44,11 @@ export default new Router({
       path: '/self_introduction',
       name: 'Self-Introduction',
       component: Self_Introduction
+    },
+    {
+      path: '/project',
+      name: 'Project',
+      component: Project
     }
   ]
 })

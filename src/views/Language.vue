@@ -6,6 +6,7 @@
                 <div class="languageImg">
                     <img :src='language.image'>
                 </div>
+                <grade data-val='100%'>{{language.name}}</grade>
             </td>
         </table>
     </div>
@@ -18,10 +19,29 @@ export default {
     computed:{
         ...mapGetters(['getLanguage', 'getPrize'])
     },
+    mounted: function(){
+        //https://www.youtube.com/watch?v=ChNezX5NBx4
+        this.$d3.selectAll("grade")
+        .datum(function(){return this.dataset;})
+        .style("width", "40%")
+        .transition().duration(800)
+        .style("width", d=>d.val)
+    }
 }
 </script>
 
 <style scoped>
+grade{
+    display: block;
+    margin: 10px 0;
+    color:black;
+    font-size:20px;
+    line-height: 1.8em;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(206, 203, 203, 0.301);
+} 
+
 .item{
     display: inline-block;
     margin: 20px;

@@ -59,16 +59,16 @@ li{
   .hello{
     position: absolute;
     left: 40%;
-    transform: translateX(-30%);
+    transform: translateX(-25%);
     text-align: left;
   }
   #icon{
-    font-size: 22px;
-    width: 22px;
+    font-size: 7vw;
+    width: 23px;
   }
   a {
     margin-left: 13px;
-    font-size: 15px;
+    font-size: 4.5vw;
   }
   li{
     margin-bottom: 30px;

@@ -129,9 +129,9 @@ export default {
 
 #nowPage{
   font-weight: bold;
-  font-size: 28px;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  font-size: 32px;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 @media(max-width:500px){
   .profileImg{

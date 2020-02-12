@@ -6,6 +6,7 @@
     <h2>with github pages</h2>
     <img src="@/assets/icons/github_icon.png">
     <img src="@/assets/icons/vuejs_icon.png">
+    <img src="@/assets/icons/portfolio.png">
   </div>
 </template>
 
@@ -31,9 +32,10 @@ img{
     font-size: 5vw;
   }
   img{
-    margin: 20px;
-    width: 25vw;
-    height: 25vw;
+    margin: 10px;
+    margin-top: 40px;
+    width: 22vw;
+    height: 22vw;
   }
 }
 </style>
