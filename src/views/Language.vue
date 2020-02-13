@@ -6,7 +6,7 @@
                 <div class="languageImg">
                     <img :src='language.image'>
                 </div>
-                <grade data-val='100%'>{{language.name}}</grade>
+                <span id="language-name" data-val='100%'>{{language.name}}</span>
             </td>
         </table>
     </div>
@@ -21,7 +21,7 @@ export default {
     },
     mounted: function(){
         //https://www.youtube.com/watch?v=ChNezX5NBx4
-        this.$d3.selectAll("grade")
+        this.$d3.selectAll('#language-name')
         .datum(function(){return this.dataset;})
         .style("width", "40%")
         .transition().duration(800)
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-grade{
+#language-name{
     display: block;
     margin: 10px 0;
     color:black;

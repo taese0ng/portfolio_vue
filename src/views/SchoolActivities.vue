@@ -1,9 +1,7 @@
 <template>
     <div>
         <div id="nowPage">- School Activities -</div>
-        <h1>학교 활동 제작중입니다.</h1>
         <Timeline
-        class="tiemline"
         :timeline-items="getSchoolActivities"
         :message-when-no-items="messageWhenNoItems"
         :unique-year="true"
@@ -32,7 +30,15 @@ export default {
 </script>
 
 <style scoped>
-    .timeline{
-        margin: auto;
+    section.timeline{
+      margin: auto;
+      margin-bottom: 100px;
+    }
+    
+    @media(max-width:500px){
+      section.timeline{
+        transform: translateX(-5%);
+        margin-bottom: 40px;
+      }
     }
 </style>

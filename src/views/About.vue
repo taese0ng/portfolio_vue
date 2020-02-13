@@ -2,11 +2,14 @@
   <div class="about">
     <div id="nowPage">- About -</div>
     <h1>김태성의 포트폴리오입니다.</h1>
+    <br>
     <h2>This page was created with vue.js</h2>
     <h2>with github pages</h2>
-    <img src="@/assets/icons/github_icon.png">
-    <img src="@/assets/icons/vuejs_icon.png">
-    <img src="@/assets/icons/portfolio.png">
+    <div class="image">
+      <img src="@/assets/icons/github_icon.png">
+      <img src="@/assets/icons/vuejs_icon.png">
+      <img src="@/assets/icons/portfolio.png">
+    </div>
   </div>
 </template>
 
@@ -15,12 +18,18 @@
 </script>
 
 <style scoped>
+.image{
+  margin-top: 40px;
+}
 img{
   margin: 30px;
   width: 120px;
   height: 120px;
 }
 @media(max-width:500px){
+  .image{
+    margin-top: 10px;
+  }
   .about{
     margin-right: 20px;
     margin-left: 20px;

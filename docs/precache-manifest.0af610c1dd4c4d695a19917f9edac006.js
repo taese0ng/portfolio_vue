@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1de4fdcf290a0232d9f3",
-    "url": "/portfolio/css/about.f338d386.css"
+    "revision": "255e0b7bbb1b5586a408",
+    "url": "/portfolio/css/about.b5c777e3.css"
   },
   {
-    "revision": "1de4fdcf290a0232d9f3",
-    "url": "/portfolio/js/about.f6c16153.js"
+    "revision": "255e0b7bbb1b5586a408",
+    "url": "/portfolio/js/about.7a215834.js"
   },
   {
-    "revision": "c45df7989f9011dcdf14",
-    "url": "/portfolio/css/app.1f5c01fd.css"
+    "revision": "73b7d8fe6c6f7617532a",
+    "url": "/portfolio/css/app.0a8fa548.css"
   },
   {
-    "revision": "c45df7989f9011dcdf14",
-    "url": "/portfolio/js/app.98d9c925.js"
+    "revision": "73b7d8fe6c6f7617532a",
+    "url": "/portfolio/js/app.7828fa3f.js"
   },
   {
     "revision": "7d4ccd62d39562968314",
@@ -76,24 +76,24 @@ self.__precacheManifest = [
     "url": "/portfolio/img/MySQL.f0169407.png"
   },
   {
-    "revision": "decc06ccc3f66d89be16571a66fac7b9",
+    "revision": "72a2a07dae4becedfb1effba8f8bd691",
     "url": "/portfolio/index.html"
-  },
-  {
-    "revision": "7f2faddef3f7016964c394831bc1863a",
-    "url": "/portfolio/custom_icons/android-icon-192x192.png"
   },
   {
     "revision": "60af1d110a28493b787cc9183c79589d",
     "url": "/portfolio/custom_icons/android-icon-144x144.png"
   },
   {
-    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
-    "url": "/portfolio/custom_icons/android-icon-48x48.png"
-  },
-  {
     "revision": "590aad8eecf220ca478ca1b2e5b731ff",
     "url": "/portfolio/custom_icons/android-icon-36x36.png"
+  },
+  {
+    "revision": "7f2faddef3f7016964c394831bc1863a",
+    "url": "/portfolio/custom_icons/android-icon-192x192.png"
+  },
+  {
+    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
+    "url": "/portfolio/custom_icons/android-icon-48x48.png"
   },
   {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
@@ -116,24 +116,24 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/apple-icon-144x144.png"
   },
   {
-    "revision": "a56aa848466617225da87a5a17376cc5",
-    "url": "/portfolio/custom_icons/apple-icon-57x57.png"
+    "revision": "bb31545c695a0959d4a3faa4b66fe87d",
+    "url": "/portfolio/custom_icons/apple-icon-152x152.png"
   },
   {
     "revision": "40a8b28971af1f88a0db97ce4016af40",
     "url": "/portfolio/custom_icons/apple-icon-180x180.png"
   },
   {
-    "revision": "bb31545c695a0959d4a3faa4b66fe87d",
-    "url": "/portfolio/custom_icons/apple-icon-152x152.png"
+    "revision": "74f2b1105daebd6a536ce222312c4a0a",
+    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
+  },
+  {
+    "revision": "a56aa848466617225da87a5a17376cc5",
+    "url": "/portfolio/custom_icons/apple-icon-57x57.png"
   },
   {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/apple-icon-72x72.png"
-  },
-  {
-    "revision": "74f2b1105daebd6a536ce222312c4a0a",
-    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
   },
   {
     "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
@@ -141,23 +141,23 @@ self.__precacheManifest = [
   },
   {
     "revision": "542ca6e9cff0fdf742d43861f6489bca",
-    "url": "/portfolio/custom_icons/apple-icon.png"
-  },
-  {
-    "revision": "542ca6e9cff0fdf742d43861f6489bca",
     "url": "/portfolio/custom_icons/apple-icon-precomposed.png"
   },
   {
-    "revision": "86990a5d91d17eda2e4457eeaed63c1b",
-    "url": "/portfolio/custom_icons/favicon-32x32.png"
+    "revision": "542ca6e9cff0fdf742d43861f6489bca",
+    "url": "/portfolio/custom_icons/apple-icon.png"
+  },
+  {
+    "revision": "653d077300a12f09a69caeea7a8947f8",
+    "url": "/portfolio/custom_icons/browserconfig.xml"
   },
   {
     "revision": "5e0bc4793a5219ffbb040e99a58c4543",
     "url": "/portfolio/custom_icons/favicon-16x16.png"
   },
   {
-    "revision": "653d077300a12f09a69caeea7a8947f8",
-    "url": "/portfolio/custom_icons/browserconfig.xml"
+    "revision": "86990a5d91d17eda2e4457eeaed63c1b",
+    "url": "/portfolio/custom_icons/favicon-32x32.png"
   },
   {
     "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
@@ -180,12 +180,12 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/ms-icon-70x70.png"
   },
   {
-    "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
-    "url": "/portfolio/favicon2.ico"
-  },
-  {
     "revision": "5e0bc4793a5219ffbb040e99a58c4543",
     "url": "/portfolio/favicon.png"
+  },
+  {
+    "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
+    "url": "/portfolio/favicon2.ico"
   },
   {
     "revision": "cb4f140092ead96b865b83ef064c36ae",

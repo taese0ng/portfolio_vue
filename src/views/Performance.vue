@@ -80,6 +80,11 @@ li{
     min-height: 250px;
 }
 
+.item:hover img{
+    height: 102%;
+    opacity: 0.4;
+}
+
 .prizeImg img{
     height: 100%;
 }
