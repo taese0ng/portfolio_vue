@@ -144,8 +144,8 @@ export default {
   }
   #nowPage{
     font-size: 6.5vw;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 40px;
   }
 }
 </style>

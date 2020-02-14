@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/portfolio/js/about.7a215834.js"
   },
   {
-    "revision": "42f0856290e42292e91d",
-    "url": "/portfolio/css/app.77f388a7.css"
+    "revision": "df423805891c14637ec2",
+    "url": "/portfolio/css/app.c8c928d9.css"
   },
   {
-    "revision": "42f0856290e42292e91d",
-    "url": "/portfolio/js/app.9160aa6d.js"
+    "revision": "df423805891c14637ec2",
+    "url": "/portfolio/js/app.ba067261.js"
   },
   {
     "revision": "7d4ccd62d39562968314",
@@ -76,32 +76,16 @@ self.__precacheManifest = [
     "url": "/portfolio/img/MySQL.f0169407.png"
   },
   {
-    "revision": "6f04adf19cb382b7a91bcc6039d28a5b",
+    "revision": "509c986f02785a0559d0ad986e96fd29",
     "url": "/portfolio/index.html"
-  },
-  {
-    "revision": "60af1d110a28493b787cc9183c79589d",
-    "url": "/portfolio/custom_icons/android-icon-144x144.png"
   },
   {
     "revision": "590aad8eecf220ca478ca1b2e5b731ff",
     "url": "/portfolio/custom_icons/android-icon-36x36.png"
   },
   {
-    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
-    "url": "/portfolio/custom_icons/android-icon-96x96.png"
-  },
-  {
-    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
-    "url": "/portfolio/custom_icons/android-icon-48x48.png"
-  },
-  {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/android-icon-72x72.png"
-  },
-  {
-    "revision": "3656f65ae7ea0847841f3ad886712346",
-    "url": "/portfolio/custom_icons/apple-icon-114x114.png"
   },
   {
     "revision": "7f2faddef3f7016964c394831bc1863a",
@@ -109,15 +93,23 @@ self.__precacheManifest = [
   },
   {
     "revision": "60af1d110a28493b787cc9183c79589d",
+    "url": "/portfolio/custom_icons/android-icon-144x144.png"
+  },
+  {
+    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
+    "url": "/portfolio/custom_icons/android-icon-48x48.png"
+  },
+  {
+    "revision": "3656f65ae7ea0847841f3ad886712346",
+    "url": "/portfolio/custom_icons/apple-icon-114x114.png"
+  },
+  {
+    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
+    "url": "/portfolio/custom_icons/android-icon-96x96.png"
+  },
+  {
+    "revision": "60af1d110a28493b787cc9183c79589d",
     "url": "/portfolio/custom_icons/apple-icon-144x144.png"
-  },
-  {
-    "revision": "16d6d98c6535f6f72c0c87683b19855a",
-    "url": "/portfolio/custom_icons/apple-icon-120x120.png"
-  },
-  {
-    "revision": "bb31545c695a0959d4a3faa4b66fe87d",
-    "url": "/portfolio/custom_icons/apple-icon-152x152.png"
   },
   {
     "revision": "40a8b28971af1f88a0db97ce4016af40",
@@ -128,16 +120,20 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/apple-icon-57x57.png"
   },
   {
-    "revision": "74f2b1105daebd6a536ce222312c4a0a",
-    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
+    "revision": "bb31545c695a0959d4a3faa4b66fe87d",
+    "url": "/portfolio/custom_icons/apple-icon-152x152.png"
+  },
+  {
+    "revision": "16d6d98c6535f6f72c0c87683b19855a",
+    "url": "/portfolio/custom_icons/apple-icon-120x120.png"
   },
   {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/apple-icon-72x72.png"
   },
   {
-    "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
-    "url": "/portfolio/custom_icons/apple-icon-76x76.png"
+    "revision": "74f2b1105daebd6a536ce222312c4a0a",
+    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
   },
   {
     "revision": "542ca6e9cff0fdf742d43861f6489bca",
@@ -148,16 +144,20 @@ self.__precacheManifest = [
     "url": "/portfolio/custom_icons/browserconfig.xml"
   },
   {
+    "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
+    "url": "/portfolio/custom_icons/apple-icon-76x76.png"
+  },
+  {
+    "revision": "86990a5d91d17eda2e4457eeaed63c1b",
+    "url": "/portfolio/custom_icons/favicon-32x32.png"
+  },
+  {
     "revision": "542ca6e9cff0fdf742d43861f6489bca",
     "url": "/portfolio/custom_icons/apple-icon-precomposed.png"
   },
   {
     "revision": "5e0bc4793a5219ffbb040e99a58c4543",
     "url": "/portfolio/custom_icons/favicon-16x16.png"
-  },
-  {
-    "revision": "86990a5d91d17eda2e4457eeaed63c1b",
-    "url": "/portfolio/custom_icons/favicon-32x32.png"
   },
   {
     "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",

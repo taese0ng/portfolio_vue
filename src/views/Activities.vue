@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div id="nowPage">- School Activities -</div>
+        <div id="nowPage">- Activities -</div>
         <Timeline
-        :timeline-items="getSchoolActivities"
+        :timeline-items="getActivities"
         :message-when-no-items="messageWhenNoItems"
         :unique-year="true"
         :unique-timeline="true"
@@ -24,7 +24,7 @@ export default {
     
   }),
   computed:{
-        ...mapGetters(['getSchoolActivities'])
+        ...mapGetters(['getActivities'])
     },
 }
 </script>
@@ -34,10 +34,9 @@ export default {
       margin: auto;
       margin-bottom: 100px;
     }
-    
     @media(max-width:500px){
       section.timeline{
-        transform: translateX(-5%);
+        transform: translateX(-4%);
         margin-bottom: 40px;
       }
     }

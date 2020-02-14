@@ -135,7 +135,7 @@ export default new Vuex.Store({
         image: require("@/assets/icons/MySQL.png")
       }
     ],
-    SchoolActivities: [
+    Activities: [
       {
         from: new Date(2015, 2),
         title: "학생회",
@@ -202,8 +202,8 @@ export default new Vuex.Store({
     getLink(state) {
       return state.Link;
     },
-    getSchoolActivities(state) {
-      return state.SchoolActivities;
+    getActivities(state) {
+      return state.Activities;
     }
   },
   mutations: {
