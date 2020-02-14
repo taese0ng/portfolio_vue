@@ -58,8 +58,8 @@ li{
 @media(max-width: 500px){
   .hello{
     position: absolute;
-    left: 40%;
-    transform: translateX(-25%);
+    left: 30%;
+    transform: translateX(-15%);
     text-align: left;
   }
   #icon{

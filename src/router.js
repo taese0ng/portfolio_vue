@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Performance from './views/Performance.vue'
 import Language from './views/Language.vue'
-import SchoolActivities from './views/SchoolActivities.vue'
+import Activities from './views/Activities.vue'
 import Self_Introduction from './views/Self_Introduction.vue'
 import Project from './views/Project'
 Vue.use(Router)
@@ -36,9 +36,9 @@ export default new Router({
       component: Language
     },
     {
-      path: '/school_activities',
-      name: 'SchoolActivities',
-      component: SchoolActivities
+      path: '/activities',
+      name: 'Activities',
+      component: Activities
     },
     {
       path: '/self_introduction',

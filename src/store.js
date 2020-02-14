@@ -72,8 +72,8 @@ export default new Vuex.Store({
       },
       {
         id: 5,
-        name: "SchoolActivities",
-        to: "/school_activities"
+        name: "Activities",
+        to: "/activities"
       },
       {
         id: 6,
