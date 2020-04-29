@@ -6,8 +6,8 @@
     <h2>This page was created with vue.js</h2>
     <h2>with github pages</h2>
     <div class="image">
-      <img src="@/assets/icons/github_icon.png">
-      <img src="@/assets/icons/vuejs_icon.png">
+      <img src="@/assets/icons/github.png">
+      <img src="@/assets/icons/Vue.png">
       <img src="@/assets/icons/portfolio.png">
     </div>
   </div>

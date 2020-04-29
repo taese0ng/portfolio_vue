@@ -1,11 +1,11 @@
 <template>
     <div class="menu">
         <li v-for="menu in getMenu" :key="menu.id"  @click="menuClick(menu.name)">
-        <router-link 
-         :to="menu.to" class="router-link" 
-        >
-        {{menu.name}}
-        </router-link>
+            <router-link 
+            :to="menu.to" class="router-link" 
+            >
+            {{menu.name}}
+            </router-link>
         </li>
     </div>
 </template>

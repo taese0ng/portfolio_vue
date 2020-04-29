@@ -14,7 +14,7 @@ export default new Vuex.Store({
         href: "http://kumoh.ac.kr/ko/index.do",
         target: "_blank",
         rel: "noopener",
-        name: "금오공과대학교 (KIT)"
+        name: "금오공과대학교 (KIT)",
       },
       {
         id: 2,
@@ -22,7 +22,7 @@ export default new Vuex.Store({
         href: "http://ce.kumoh.ac.kr/ce/index.do",
         target: "_blank",
         rel: "noopener",
-        name: "컴퓨터공학과 (CE)"
+        name: "컴퓨터공학과 (CE)",
       },
       {
         id: 3,
@@ -30,7 +30,7 @@ export default new Vuex.Store({
         href: "mailto:taese0ng@naver.com",
         target: "",
         rel: "noopener",
-        name: "taese0ng@naver.com"
+        name: "taese0ng@naver.com",
       },
       {
         id: 4,
@@ -38,7 +38,7 @@ export default new Vuex.Store({
         href: "https://github.com/taese0ng?tab=repositories",
         target: "_blank",
         rel: "noopener",
-        name: "taese0ng"
+        name: "taese0ng",
       },
       {
         id: 5,
@@ -46,142 +46,209 @@ export default new Vuex.Store({
         href: "https://www.instagram.com/taese0_0ng/",
         target: "_blank",
         rel: "noopener",
-        name: "#taese0_0ng"
-      }
+        name: "#taese0_0ng",
+      },
     ],
     Menu: [
       {
         id: 1,
         name: "Home",
-        to: "/"
+        to: "/",
       },
       {
         id: 2,
         name: "About",
-        to: "/about"
+        to: "/about",
       },
       {
         id: 3,
         name: "Performance",
-        to: "/performance"
+        to: "/performance",
       },
       {
         id: 4,
         name: "Language",
-        to: "/language"
+        to: "/language",
       },
       {
         id: 5,
         name: "Activities",
-        to: "/activities"
+        to: "/activities",
       },
       {
         id: 6,
-        name: "Self-Introduction",
-        to: "/self_introduction"
-      },
-      {
-        id: 7,
         name: "Project",
-        to: "/project"
-      }
+        to: "/project",
+      },
+      // {
+      //   id: 7,
+      //   name: "Self-Introduction",
+      //   to: "/self_introduction"
+      // },
     ],
     Prize: [
       {
         id: 1,
         name: "논문경진대회 은상",
-        image: require("@/assets/Prize/Paper.png")
+        image: require("@/assets/Prize/Paper.png"),
       },
       {
         id: 2,
         name: "BM공모전 대상",
-        image: require("@/assets/Prize/BM.png")
-      }
+        image: require("@/assets/Prize/BM.png"),
+      },
     ],
     Languages: [
       {
         id: 0,
         name: "Vue",
-        image: require("@/assets/icons/vuejs_icon.png")
+        image: require("@/assets/icons/Vue.png"),
       },
       {
         id: 1,
         name: "HTML",
-        image: require("@/assets/icons/HTML.png")
+        image: require("@/assets/icons/HTML.png"),
       },
       {
         id: 2,
         name: "Python",
-        image: require("@/assets/icons/Python.png")
+        image: require("@/assets/icons/Python.png"),
       },
       {
         id: 3,
         name: "Java",
-        image: require("@/assets/icons/Java.png")
+        image: require("@/assets/icons/Java.png"),
       },
       {
         id: 4,
         name: "C++",
-        image: require("@/assets/icons/C++.png")
+        image: require("@/assets/icons/C++.png"),
       },
       {
         id: 5,
         name: "C#",
-        image: require("@/assets/icons/C++++.png")
+        image: require("@/assets/icons/C++++.png"),
       },
       {
         id: 6,
         name: "MySQL",
-        image: require("@/assets/icons/MySQL.png")
-      }
+        image: require("@/assets/icons/MySQL.png"),
+      },
+      {
+        id: 7,
+        name: "React",
+        image: require("@/assets/icons/React.png"),
+      },
     ],
     Activities: [
       {
         from: new Date(2015, 2),
         title: "학생회",
-        description: "금오공과대학교 컴퓨터공학과 학생회 사무차장으로서 학생회 활동을 하였음."
+        description:
+          "금오공과대학교 컴퓨터공학과 학생회 사무차장으로서 학생회 활동을 하였음.",
       },
       {
         from: new Date(2016, 2),
         title: "셈틀꾼 멘토",
-        description: "컴퓨터공학과 학술동아리 '셈틀꾼'에서 16학년도 신입생을 대상으로 C언어 전공과목 멘토를 진행함."
+        description:
+          "컴퓨터공학과 학술동아리 '셈틀꾼'에서 16학년도 신입생을 대상으로 C언어 전공과목 멘토를 진행함.",
       },
       {
         from: new Date(2018, 8),
         title: "셈틀꾼 멘토",
-        description: "군복학 후 학술동아리 '셈틀꾼'에서 18학년도 신입생을 대상으로 C언어 전공과목 멘토를 진행함."
+        description:
+          "군복학 후 학술동아리 '셈틀꾼'에서 18학년도 신입생을 대상으로 C언어 전공과목 멘토를 진행함.",
       },
       {
         from: new Date(2018, 10),
         title: "System Software Lab",
-        description: "컴퓨터공학과 System Software Lab의 연구원으로 활동을 시작함."
+        description:
+          "컴퓨터공학과 System Software Lab의 연구원으로 활동을 시작함.",
       },
       {
         from: new Date(2019, 2),
         title: "셈틀꾼 회장 & 멘토",
-        description: "학술동아리 '셈틀꾼'의 회장직을 맡고 동아리 운영을 함과 동시에 19학년도 신입생을 대상으로 Python 전공과목 멘토를 진행함."
+        description:
+          "학술동아리 '셈틀꾼'의 회장직을 맡고 동아리 운영을 함과 동시에 19학년도 신입생을 대상으로 Python 전공과목 멘토를 진행함.",
       },
       {
         from: new Date(2019, 5),
         title: "KIT 전공탐색가이드 5기",
-        description: "입학관리본부 소속으로 학교와 본인의 학과인 컴퓨터공학과를 알리는 'KIT 전공탐색가이드'활동을 시작함. 고교에 다니면서 학교와 학과에대한 이해를 시켜주는 등의 활동을 함."
+        description:
+          "입학관리본부 소속으로 학교와 본인의 학과인 컴퓨터공학과를 알리는 'KIT 전공탐색가이드'활동을 시작함. 고교에 다니면서 학교와 학과에대한 이해를 시켜주는 등의 활동을 함.",
       },
       {
         from: new Date(2019, 7),
         title: "신입생 멘토",
-        description: "19학년도 신입생을 대상으로 학교적응을 위한 멘토활동과, 다양한 교내활동을 안내 해주며 신입생들이 학교생활에 익숙해질 수 있도록 멘토링을 진행함."
+        description:
+          "19학년도 신입생을 대상으로 학교적응을 위한 멘토활동과, 다양한 교내활동을 안내 해주며 신입생들이 학교생활에 익숙해질 수 있도록 멘토링을 진행함.",
       },
       {
         from: new Date(2019, 8),
         title: "전공멘토(Linux)",
-        description: "전공과목 'Linux 프로그래밍'의 멘토로 선정되어 2학년 학우들을 대상으로 해당 교과목의 이해를 돕기위한 조교 및 멘토링을 진행함."
+        description:
+          "전공과목 'Linux 프로그래밍'의 멘토로 선정되어 2학년 학우들을 대상으로 해당 교과목의 이해를 돕기위한 조교 및 멘토링을 진행함.",
       },
       {
         from: new Date(2020, 1),
         title: "KIT 전공탐색가이드 6기",
-        description: "입학관리본부 소속으로 학교와 본인의 학과인 컴퓨터공학과를 알리는 'KIT 전공탐색가이드'활동을 5기에 이어서 6기활동을 수행함."
-      }
-    ]
+        description:
+          "입학관리본부 소속으로 학교와 본인의 학과인 컴퓨터공학과를 알리는 'KIT 전공탐색가이드'활동을 5기에 이어서 6기활동을 수행함.",
+      },
+    ],
+    Project: [
+      {
+        id: 1,
+        name: "MAPMO",
+        src: "https://play.google.com/store/apps/details?id=kr.kumoh.mapmo",
+        isOpen: false,
+        visible: true,
+        content: [
+          "지도에 메모를 더하다. MAPMO",
+          "지도에 메모를 하여 근처에 접근하면 메모의 내용을 알림.",
+          "'geofencing기술과 realtime database를 활용.'",
+          "'메모와 사용자위치간의 실시간 거리 측정 및 알림 기능을 개발.'",
+          "'UI 담당'"
+        ],
+        mainImg: require("@/assets/Project/MAPMO/MAPMO.png"),
+        img: [
+          require("@/assets/Project/MAPMO/1.png"),
+          require("@/assets/Project/MAPMO/2.png"),
+          require("@/assets/Project/MAPMO/3.png"),
+          require("@/assets/Project/MAPMO/4.png"),
+          require("@/assets/Project/MAPMO/5.png"),
+          require("@/assets/Project/MAPMO/6.png"),
+          require("@/assets/Project/MAPMO/7.png"),
+          require("@/assets/Project/MAPMO/8.png"),
+          require("@/assets/Project/MAPMO/9.png"),
+          require("@/assets/Project/MAPMO/10.png"),
+          require("@/assets/Project/MAPMO/11.png"),
+        ],
+      },
+      {
+        id: 2,
+        name: "CoronaCatch",
+        src: "https://www.coronacatch.com/home",
+        isOpen: false,
+        visible: true,
+        content: [
+          "잡아라 코로나 Corona Catch",
+          "코로나 감염 동계 / 마스크 현황 지도 제공",
+          "'Vue.JS를 이용한 프론트엔드 개발'",
+          "'마스크맵 구축'",
+          "'ssh 인증 및 네이버 클라우드 플랫폼 사용'"
+        ],
+        mainImg: require("@/assets/Project/Coronacatch/CoronaCatch.png"),
+        img: [
+          require("@/assets/Project/Coronacatch/1.png"),
+          require("@/assets/Project/Coronacatch/2.png"),
+          require("@/assets/Project/Coronacatch/3.png"),
+          require("@/assets/Project/Coronacatch/4.png"),
+          require("@/assets/Project/Coronacatch/5.png"),
+          require("@/assets/Project/Coronacatch/6.png"),
+        ],
+      },
+    ],
   },
   getters: {
     getMenuOpen(state) {
@@ -204,7 +271,10 @@ export default new Vuex.Store({
     },
     getActivities(state) {
       return state.Activities;
-    }
+    },
+    getProject(state) {
+      return state.Project;
+    },
   },
   mutations: {
     turnMenu(state) {
@@ -212,7 +282,16 @@ export default new Vuex.Store({
     },
     changePage(state, Change) {
       state.NowPage = Change;
-    }
+    },
+    setProjectImgOpen(state, id) {
+      for (var i = 0; i < state.Project.length; i++) {
+        if (state.Project[i].id == id) {
+          state.Project[i].isOpen = !state.Project[i].isOpen;
+        } else {
+          state.Project[i].visible = !state.Project[i].visible;
+        }
+      }
+    },
   },
-  actions: {}
+  actions: {},
 });
