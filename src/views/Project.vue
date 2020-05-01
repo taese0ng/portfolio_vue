@@ -17,7 +17,7 @@
                         <li class="contentLine Btns">
                             <span class="btn" @click="clickd(project.id)">
                                 <span v-if="!project.isOpen">펼치기</span>
-                                <span v-else>닫기</span>
+                                <span v-else>접기</span>
                             </span>
                         </li>
                         <li class="contentLine Btns">
