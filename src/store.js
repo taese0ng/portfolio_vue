@@ -201,6 +201,7 @@ export default new Vuex.Store({
         id: 1,
         name: "MAPMO",
         src: "https://play.google.com/store/apps/details?id=kr.kumoh.mapmo",
+        git: "https://github.com/taese0ng/MapmoProject",
         isOpen: false,
         visible: true,
         content: [
@@ -208,7 +209,7 @@ export default new Vuex.Store({
           "지도에 메모를 하여 근처에 접근하면 메모의 내용을 알림.",
           "'geofencing기술과 realtime database를 활용.'",
           "'메모와 사용자위치간의 실시간 거리 측정 및 알림 기능을 개발.'",
-          "'UI 담당'"
+          "'UI 담당'",
         ],
         mainImg: require("@/assets/Project/MAPMO/MAPMO.png"),
         img: [
@@ -229,6 +230,7 @@ export default new Vuex.Store({
         id: 2,
         name: "CoronaCatch",
         src: "https://www.coronacatch.com/home",
+        git: "https://github.com/taese0ng/CoronaCatch",
         isOpen: false,
         visible: true,
         content: [
@@ -236,7 +238,7 @@ export default new Vuex.Store({
           "코로나 감염 동계 / 마스크 현황 지도 제공",
           "'Vue.JS를 이용한 프론트엔드 개발'",
           "'마스크맵 구축'",
-          "'ssh 인증 및 네이버 클라우드 플랫폼 사용'"
+          "'ssh 인증 및 네이버 클라우드 플랫폼 사용'",
         ],
         mainImg: require("@/assets/Project/Coronacatch/CoronaCatch.png"),
         img: [

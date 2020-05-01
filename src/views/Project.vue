@@ -15,7 +15,15 @@
                             <a class="btn" :href="project.src" target="_blank">페이지 가기</a>
                         </li>
                         <li class="contentLine Btns">
-                            <span class="btn" @click="clickd(project.id)">펼치기</span>
+                            <span class="btn" @click="clickd(project.id)">
+                                <span v-if="!project.isOpen">펼치기</span>
+                                <span v-else>닫기</span>
+                            </span>
+                        </li>
+                        <li class="contentLine Btns">
+                            <a class="btn" :href="project.git" target="_blank">
+                                <img style="position: relative; top:3px;" width="25px" src="@/assets/icons/github.png"> Git
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -122,7 +130,7 @@ li{
 .btn{
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 7px;
     background: rgb(54,54,54);
     border-radius: 5px;
     font-size: 25px;
