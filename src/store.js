@@ -57,28 +57,29 @@ export default new Vuex.Store({
       },
       {
         id: 2,
-        name: "About",
-        to: "/about",
-      },
-      {
-        id: 3,
-        name: "Performance",
-        to: "/performance",
-      },
-      {
-        id: 4,
-        name: "Language",
-        to: "/language",
-      },
-      {
-        id: 5,
         name: "Activities",
         to: "/activities",
       },
       {
-        id: 6,
+        id: 3,
+        name: "Language",
+        to: "/language",
+      },
+
+      {
+        id: 4,
+        name: "Performance",
+        to: "/performance",
+      },
+      {
+        id: 5,
         name: "Project",
         to: "/project",
+      },
+      {
+        id: 6,
+        name: "About",
+        to: "/about",
       },
       // {
       //   id: 7,
