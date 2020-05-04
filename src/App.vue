@@ -42,13 +42,14 @@ export default {
   margin: 0;
 }
 
-@font-face {
-  font-family: Nanumsquare;
-  src: url('./assets/fonts/NanumSquareOTF_acB.otf');
+@font-face 
+{
+    font-family: NanumSquareRound;
+    src: url('./assets/fonts/NanumSquareRoundR.ttf');
 }
 
 #app {
-  font-family: Nanumsquare;
+  font-family: NanumSquareRound;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
