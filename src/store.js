@@ -226,6 +226,7 @@ export default new Vuex.Store({
           require("@/assets/Project/MAPMO/10.png"),
           require("@/assets/Project/MAPMO/11.png"),
         ],
+        thesis : "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09273306",
       },
       {
         id: 2,
@@ -250,6 +251,7 @@ export default new Vuex.Store({
           require("@/assets/Project/Coronacatch/5.png"),
           require("@/assets/Project/Coronacatch/6.png"),
         ],
+        thesis : null,
       },
     ],
   },

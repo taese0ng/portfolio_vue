@@ -25,6 +25,9 @@
                                 <img style="position: relative; top:3px;" width="25px" src="@/assets/icons/github.png"> Git
                             </a>
                         </li>
+                        <li v-if="project.thesis != null" class="contentLine Btns">
+                            <a class="btn" :href="project.thesis" target="_blank">논문</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="projectImgsBG">
