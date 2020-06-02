@@ -112,31 +112,41 @@ export default new Vuex.Store({
       },
       {
         id: 2,
+        name : "CSS",
+        image: require("@/assets/icons/CSS.png")
+      },
+      {
+        id: 3,
+        name : "JavaScript",
+        image: require("@/assets/icons/JavaScript.png")
+      },
+      {
+        id: 4,
         name: "Python",
         image: require("@/assets/icons/Python.png"),
       },
       {
-        id: 3,
+        id: 5,
         name: "Java",
         image: require("@/assets/icons/Java.png"),
       },
       {
-        id: 4,
+        id: 6,
         name: "C++",
         image: require("@/assets/icons/C++.png"),
       },
       {
-        id: 5,
+        id: 7,
         name: "C#",
         image: require("@/assets/icons/C++++.png"),
       },
       {
-        id: 6,
+        id: 8,
         name: "MySQL",
         image: require("@/assets/icons/MySQL.png"),
       },
       {
-        id: 7,
+        id: 9,
         name: "React",
         image: require("@/assets/icons/React.png"),
       },
