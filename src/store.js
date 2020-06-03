@@ -247,7 +247,7 @@ export default new Vuex.Store({
         visible: true,
         content: [
           "잡아라 코로나 Corona Catch",
-          "코로나 감염 동계 / 마스크 현황 지도 제공",
+          "코로나 감염 통계 / 마스크 현황 지도 제공",
           "'Vue.JS를 이용한 프론트엔드 개발'",
           "'마스크맵 구축'",
           "'ssh 인증 및 네이버 클라우드 플랫폼 사용'",
