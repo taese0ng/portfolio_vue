@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Performance from './views/Performance.vue'
-import Language from './views/Language.vue'
+import Award from './views/Award.vue'
+import Skill from './views/Skill.vue'
 import Activities from './views/Activities.vue'
 import Self_Introduction from './views/Self_Introduction.vue'
 import Project from './views/Project'
@@ -26,14 +26,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path:'/performance',
-      name:'performance',
-      component : Performance
+      path:'/award',
+      name:'Award',
+      component : Award
     },
     {
-      path: '/language',
-      name: 'language',
-      component: Language
+      path: '/skill',
+      name: 'Skill',
+      component: Skill
     },
     {
       path: '/activities',

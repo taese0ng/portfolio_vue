@@ -62,14 +62,14 @@ export default new Vuex.Store({
       },
       {
         id: 3,
-        name: "Language",
-        to: "/language",
+        name: "Skill",
+        to: "/skill",
       },
 
       {
         id: 4,
-        name: "Performance",
-        to: "/performance",
+        name: "Award",
+        to: "/award",
       },
       {
         id: 5,

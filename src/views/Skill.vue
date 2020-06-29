@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="nowPage">- Language -</div>
+        <div id="nowPage">- Skill -</div>
         <table class="languages">
             <td class="item" v-for="language in getLanguage" :key="language.id">
                 <div class="languageImg">
