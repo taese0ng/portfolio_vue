@@ -206,6 +206,11 @@ export default new Vuex.Store({
         description:
           "입학관리본부 소속으로 학교와 본인의 학과인 컴퓨터공학과를 알리는 'KIT 전공탐색가이드'활동을 5기에 이어서 6기활동을 수행함.",
       },
+      {
+        from: new Date(2020, 2),
+        title: "셈틀꾼 멘토",
+        description:"컴퓨터공학과 학술동아리 '셈틀꾼'에서 20학년도 신입생을 대상으로 Python 전공과목 멘토를 진행함."
+      }
     ],
     Project: [
       {
