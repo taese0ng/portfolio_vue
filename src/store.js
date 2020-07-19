@@ -107,13 +107,13 @@ export default new Vuex.Store({
       },
       {
         id: 1,
-        name: "HTML",
-        image: require("@/assets/icons/HTML.png"),
+        name: "Vuetify",
+        image :require("@/assets/icons/Vuetify.png")
       },
       {
         id: 2,
-        name : "CSS",
-        image: require("@/assets/icons/CSS.png")
+        name: "React",
+        image: require("@/assets/icons/React.png"),
       },
       {
         id: 3,
@@ -122,34 +122,40 @@ export default new Vuex.Store({
       },
       {
         id: 4,
+        name: "HTML",
+        image: require("@/assets/icons/HTML.png"),
+      },
+      {
+        id: 5,
+        name : "CSS",
+        image: require("@/assets/icons/CSS.png")
+      },
+      {
+        id: 6,
+        name: "Bootstrap",
+        image: require("@/assets/icons/Bootstrap.png"),
+      },
+      {
+        id: 7,
         name: "Python",
         image: require("@/assets/icons/Python.png"),
       },
       {
-        id: 5,
+        id: 8,
         name: "Java",
         image: require("@/assets/icons/Java.png"),
       },
       {
-        id: 6,
+        id: 9,
         name: "C++",
         image: require("@/assets/icons/C++.png"),
       },
       {
-        id: 7,
-        name: "C#",
-        image: require("@/assets/icons/C++++.png"),
-      },
-      {
-        id: 8,
+        id: 10,
         name: "MySQL",
         image: require("@/assets/icons/MySQL.png"),
       },
-      {
-        id: 9,
-        name: "React",
-        image: require("@/assets/icons/React.png"),
-      },
+      
     ],
     Activities: [
       {
@@ -210,6 +216,11 @@ export default new Vuex.Store({
         from: new Date(2020, 2),
         title: "셈틀꾼 멘토",
         description:"컴퓨터공학과 학술동아리 '셈틀꾼'에서 20학년도 신입생을 대상으로 Python 전공과목 멘토를 진행함."
+      },
+      {
+        from: new Date(2020, 6),
+        title: "셈틀꾼 웹프로그래밍 멘토",
+        description: "컴퓨터공학과 학술동아리 '셈틀꾼'에서 동아리원을 대상으로 'html', 'css', 'javascript'등 Web FrontEnd 멘토링을 진행함."
       }
     ],
     Project: [
