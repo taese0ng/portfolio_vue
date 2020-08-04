@@ -252,7 +252,7 @@ export default new Vuex.Store({
       {
         id: 2,
         name: "KUMO Craft",
-        src: "http://www.kumocraft.mcmc.kr",
+        src: "http://kumocraft.mcmc.kr",
         git: "https://github.com/taese0ng/minecraft_semtle",
         isOpen: false,
         visible: true,
