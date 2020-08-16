@@ -237,6 +237,7 @@ export default new Vuex.Store({
           "'Vue.JS를 이용한 프론트엔드 개발'",
           "'마스크맵 구축'",
           "'ssh 인증 및 네이버 클라우드 플랫폼 사용'",
+          "'2020/02 ~ 2020/08 마스크API 종료로인한 서비스 종료'"
         ],
         mainImg: require("@/assets/Project/Coronacatch/CoronaCatch.png"),
         img: [
