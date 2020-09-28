@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/portfolio/js/about.415d4818.js"
   },
   {
-    "revision": "29541f9e974e55965012",
+    "revision": "10dd08abffd75cf32c03",
     "url": "/portfolio/css/app.1ae3fc38.css"
   },
   {
-    "revision": "29541f9e974e55965012",
-    "url": "/portfolio/js/app.b661b41e.js"
+    "revision": "10dd08abffd75cf32c03",
+    "url": "/portfolio/js/app.d4748921.js"
   },
   {
     "revision": "3411a3f4f1a135b0cf47",
@@ -32,6 +32,10 @@ self.__precacheManifest = [
     "url": "/portfolio/img/7.593839d1.png"
   },
   {
+    "revision": "69a49aa056cfafafcd1e013225b0488a",
+    "url": "/portfolio/img/mainLogo.69a49aa0.png"
+  },
+  {
     "revision": "bfe37342a1ae4db4bb0b8aa06a6f810e",
     "url": "/portfolio/img/2.bfe37342.png"
   },
@@ -46,6 +50,10 @@ self.__precacheManifest = [
   {
     "revision": "453fbbc7f6e7df01437b90c752e53738",
     "url": "/portfolio/img/Paper.453fbbc7.png"
+  },
+  {
+    "revision": "84652faaa19a23e3f8d4ba1d00fe150c",
+    "url": "/portfolio/img/5.84652faa.png"
   },
   {
     "revision": "9a7b0f3e865ec82ab40dcd7b17e4d762",
@@ -70,6 +78,10 @@ self.__precacheManifest = [
   {
     "revision": "0a1395f3b960027c3c3b709aecbaa345",
     "url": "/portfolio/img/CoronaCatch.0a1395f3.png"
+  },
+  {
+    "revision": "814b85147a07f51f0fbb98e74afc64cd",
+    "url": "/portfolio/img/6.814b8514.png"
   },
   {
     "revision": "db376ebea598e6e6813458e5d80d31ee",
@@ -98,6 +110,10 @@ self.__precacheManifest = [
   {
     "revision": "64aaeb1642cfcfb42a075db1fe9994da",
     "url": "/portfolio/img/Bootstrap.64aaeb16.png"
+  },
+  {
+    "revision": "a95ff29541c5323afe21b5408a32e08e",
+    "url": "/portfolio/img/4.a95ff295.png"
   },
   {
     "revision": "7131958648def1d81f03b250648b4fa7",
@@ -152,6 +168,10 @@ self.__precacheManifest = [
     "url": "/portfolio/img/Vuetify.1c24330a.png"
   },
   {
+    "revision": "ee6680ff8c5cd426d6c6473c9ccd35af",
+    "url": "/portfolio/img/2.ee6680ff.png"
+  },
+  {
     "revision": "c14c16ba4d681d1f525fb5de9d91089c",
     "url": "/portfolio/img/4.c14c16ba.png"
   },
@@ -188,120 +208,128 @@ self.__precacheManifest = [
     "url": "/portfolio/img/KUMOCraft.571e7a87.png"
   },
   {
+    "revision": "5042ce03c1eb80548a75528086178204",
+    "url": "/portfolio/img/3.5042ce03.png"
+  },
+  {
+    "revision": "1f00be4d31659fa46c1feb08fd4b0701",
+    "url": "/portfolio/img/1.1f00be4d.png"
+  },
+  {
     "revision": "16f654e43b79ae625cde967157129fbc",
     "url": "/portfolio/img/1.16f654e4.png"
   },
   {
-    "revision": "6838337c77df2ca9eac382c5f3476a73",
+    "revision": "d1551779e01fd475c09855f33564e0ab",
     "url": "/portfolio/index.html"
-  },
-  {
-    "revision": "7f2faddef3f7016964c394831bc1863a",
-    "url": "/portfolio/custom_icons/android-icon-192x192.png"
-  },
-  {
-    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
-    "url": "/portfolio/custom_icons/android-icon-96x96.png"
   },
   {
     "revision": "60af1d110a28493b787cc9183c79589d",
     "url": "/portfolio/custom_icons/android-icon-144x144.png"
   },
   {
+    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
+    "url": "/portfolio/custom_icons/android-icon-48x48.png"
+  },
+  {
     "revision": "590aad8eecf220ca478ca1b2e5b731ff",
     "url": "/portfolio/custom_icons/android-icon-36x36.png"
+  },
+  {
+    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
+    "url": "/portfolio/custom_icons/android-icon-96x96.png"
+  },
+  {
+    "revision": "7f2faddef3f7016964c394831bc1863a",
+    "url": "/portfolio/custom_icons/android-icon-192x192.png"
   },
   {
     "revision": "3656f65ae7ea0847841f3ad886712346",
     "url": "/portfolio/custom_icons/apple-icon-114x114.png"
   },
   {
-    "revision": "16d6d98c6535f6f72c0c87683b19855a",
-    "url": "/portfolio/custom_icons/apple-icon-120x120.png"
+    "revision": "60af1d110a28493b787cc9183c79589d",
+    "url": "/portfolio/custom_icons/apple-icon-144x144.png"
   },
   {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/android-icon-72x72.png"
   },
   {
-    "revision": "497364a9254b457890e1ad9b0f6fdfc2",
-    "url": "/portfolio/custom_icons/android-icon-48x48.png"
-  },
-  {
     "revision": "40a8b28971af1f88a0db97ce4016af40",
     "url": "/portfolio/custom_icons/apple-icon-180x180.png"
-  },
-  {
-    "revision": "74f2b1105daebd6a536ce222312c4a0a",
-    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
-  },
-  {
-    "revision": "60af1d110a28493b787cc9183c79589d",
-    "url": "/portfolio/custom_icons/apple-icon-144x144.png"
-  },
-  {
-    "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
-    "url": "/portfolio/custom_icons/apple-icon-76x76.png"
   },
   {
     "revision": "bb31545c695a0959d4a3faa4b66fe87d",
     "url": "/portfolio/custom_icons/apple-icon-152x152.png"
   },
   {
-    "revision": "542ca6e9cff0fdf742d43861f6489bca",
-    "url": "/portfolio/custom_icons/apple-icon.png"
+    "revision": "16d6d98c6535f6f72c0c87683b19855a",
+    "url": "/portfolio/custom_icons/apple-icon-120x120.png"
   },
   {
-    "revision": "542ca6e9cff0fdf742d43861f6489bca",
-    "url": "/portfolio/custom_icons/apple-icon-precomposed.png"
-  },
-  {
-    "revision": "86990a5d91d17eda2e4457eeaed63c1b",
-    "url": "/portfolio/custom_icons/favicon-32x32.png"
-  },
-  {
-    "revision": "a56aa848466617225da87a5a17376cc5",
-    "url": "/portfolio/custom_icons/apple-icon-57x57.png"
-  },
-  {
-    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
-    "url": "/portfolio/custom_icons/favicon-96x96.png"
-  },
-  {
-    "revision": "5e0bc4793a5219ffbb040e99a58c4543",
-    "url": "/portfolio/custom_icons/favicon-16x16.png"
+    "revision": "74f2b1105daebd6a536ce222312c4a0a",
+    "url": "/portfolio/custom_icons/apple-icon-60x60.png"
   },
   {
     "revision": "93478bcaee42499cc4bae5516a5ac179",
     "url": "/portfolio/custom_icons/apple-icon-72x72.png"
   },
   {
-    "revision": "0251e57951a2c7c9e2177fd28d679daf",
-    "url": "/portfolio/custom_icons/ms-icon-150x150.png"
+    "revision": "a56aa848466617225da87a5a17376cc5",
+    "url": "/portfolio/custom_icons/apple-icon-57x57.png"
   },
   {
-    "revision": "60af1d110a28493b787cc9183c79589d",
-    "url": "/portfolio/custom_icons/ms-icon-144x144.png"
+    "revision": "542ca6e9cff0fdf742d43861f6489bca",
+    "url": "/portfolio/custom_icons/apple-icon.png"
+  },
+  {
+    "revision": "c7e25d8e40284a2ee1649f5dabe67be0",
+    "url": "/portfolio/custom_icons/apple-icon-76x76.png"
   },
   {
     "revision": "653d077300a12f09a69caeea7a8947f8",
     "url": "/portfolio/custom_icons/browserconfig.xml"
   },
   {
+    "revision": "e3fe0b5bb05a940a6d3aba5ad0e180bb",
+    "url": "/portfolio/custom_icons/favicon-96x96.png"
+  },
+  {
+    "revision": "542ca6e9cff0fdf742d43861f6489bca",
+    "url": "/portfolio/custom_icons/apple-icon-precomposed.png"
+  },
+  {
     "revision": "5e0bc4793a5219ffbb040e99a58c4543",
-    "url": "/portfolio/favicon.png"
+    "url": "/portfolio/custom_icons/favicon-16x16.png"
+  },
+  {
+    "revision": "86990a5d91d17eda2e4457eeaed63c1b",
+    "url": "/portfolio/custom_icons/favicon-32x32.png"
+  },
+  {
+    "revision": "60af1d110a28493b787cc9183c79589d",
+    "url": "/portfolio/custom_icons/ms-icon-144x144.png"
+  },
+  {
+    "revision": "0251e57951a2c7c9e2177fd28d679daf",
+    "url": "/portfolio/custom_icons/ms-icon-150x150.png"
   },
   {
     "revision": "781ef1840565251c30061413fb533e40",
     "url": "/portfolio/custom_icons/ms-icon-70x70.png"
   },
   {
-    "revision": "2c8e338b2c94119aed4c96f3a9bb012e",
-    "url": "/portfolio/custom_icons/ms-icon-310x310.png"
-  },
-  {
     "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
     "url": "/portfolio/favicon2.ico"
+  },
+  {
+    "revision": "5e0bc4793a5219ffbb040e99a58c4543",
+    "url": "/portfolio/favicon.png"
+  },
+  {
+    "revision": "2c8e338b2c94119aed4c96f3a9bb012e",
+    "url": "/portfolio/custom_icons/ms-icon-310x310.png"
   },
   {
     "revision": "cb4f140092ead96b865b83ef064c36ae",
