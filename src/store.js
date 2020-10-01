@@ -253,7 +253,7 @@ export default new Vuex.Store({
       {
         id: 2,
         name: "KUMO Craft",
-        src: "http://kumocraft.mcmc.kr",
+        // src: "http://kumocraft.mcmc.kr",
         git: "https://github.com/taese0ng/minecraft_semtle",
         isOpen: false,
         visible: true,
@@ -262,6 +262,7 @@ export default new Vuex.Store({
           "'React.JS를 이용한 프론트엔드 개발'",
           "PWA 적용 웹앱 구현완료",
           "'BootStrap 적용'",
+          "'2020/10/1 부로 폐쇄'"
         ],
         mainImg: require("@/assets/Project/KUMOCraft/KUMOCraft.png"),
         img: [
