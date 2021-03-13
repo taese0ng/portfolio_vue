@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="profileImg" alt="ProfileImg" src="@/assets/ProfileImg.png">
+        <img class="profileImg" alt="ProfileImg" src="@/assets/ProfileImg2.png">
         <p>김태성</p>
     </div>
 </template>

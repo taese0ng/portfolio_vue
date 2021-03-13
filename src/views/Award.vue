@@ -87,6 +87,7 @@ li{
 
 .prizeImg img{
     height: 100%;
+  width: 75%;
 }
 
 .item{

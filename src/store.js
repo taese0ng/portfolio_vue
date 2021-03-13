@@ -98,6 +98,16 @@ export default new Vuex.Store({
         name: "BM공모전 대상",
         image: require("@/assets/Prize/BM.png"),
       },
+      {
+        id: 3,
+        name: "논문경진대회 동상",
+        image: require("@/assets/Prize/Paper2.png"),
+      },
+      {
+        id:4,
+        name: 'OPIC IH',
+        image: require("@/assets/Prize/Opic.png")
+      }
     ],
     Languages: [
       {
@@ -117,43 +127,28 @@ export default new Vuex.Store({
       },
       {
         id: 3,
+        name: "ReactNative",
+        image: require("@/assets/icons/React.png"),
+      },
+      {
+        id: 4,
         name : "JavaScript",
         image: require("@/assets/icons/JavaScript.png")
       },
       {
-        id: 4,
+        id: 5,
         name: "HTML",
         image: require("@/assets/icons/HTML.png"),
       },
       {
-        id: 5,
+        id: 6,
         name : "CSS",
         image: require("@/assets/icons/CSS.png")
       },
       {
-        id: 6,
+        id: 7,
         name: "Bootstrap",
         image: require("@/assets/icons/Bootstrap.png"),
-      },
-      {
-        id: 7,
-        name: "Python",
-        image: require("@/assets/icons/Python.png"),
-      },
-      {
-        id: 8,
-        name: "Java",
-        image: require("@/assets/icons/Java.png"),
-      },
-      {
-        id: 9,
-        name: "C++",
-        image: require("@/assets/icons/C++.png"),
-      },
-      {
-        id: 10,
-        name: "MySQL",
-        image: require("@/assets/icons/MySQL.png"),
       },
       
     ],
@@ -221,6 +216,11 @@ export default new Vuex.Store({
         from: new Date(2020, 6),
         title: "셈틀꾼 웹프로그래밍 멘토",
         description: "컴퓨터공학과 학술동아리 '셈틀꾼'에서 동아리원을 대상으로 'html', 'css', 'javascript'등 Web FrontEnd 멘토링을 진행함."
+      },
+      {
+        from: new Date(2020,11),
+        title: "벙커키즈 프론트엔드 개발자 입사,",
+        description: "스타트업 벙커키즈의 프론트엔드 개발자로 입사하여, Web, App 개발을 하고있음. 주 개발스택은 React, React-Native를 사용하고 있으며, 현재 메인 서비스로 운영중."
       }
     ],
     Project: [
@@ -329,6 +329,7 @@ export default new Vuex.Store({
         ],
         thesis : null,
       },
+
     ],
   },
   getters: {
