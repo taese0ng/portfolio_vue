@@ -9,6 +9,14 @@ export default new Vuex.Store({
     MenuOpen: false,
     Link: [
       {
+        id: 0,
+        icon: "fas fa-building",
+        href: "https://www.myrealtrip.com/",
+        target: "_blank",
+        rel: "noopener",
+        name: "myrealtrip (마이리얼트립)",
+      },
+      {
         id: 1,
         icon: "fas fa-university",
         href: "http://kumoh.ac.kr/ko/index.do",
@@ -42,6 +50,14 @@ export default new Vuex.Store({
       },
       {
         id: 5,
+        icon: "fab fa-blogger-b",
+        href: "https://velog.io/@taese0ng",
+        target: "_blank",
+        rel: "noopener",
+        name: "velog.taese0ng"
+      },
+      {
+        id: 6,
         icon: "fab fa-instagram",
         href: "https://www.instagram.com/taese0_0ng/",
         target: "_blank",
@@ -150,7 +166,7 @@ export default new Vuex.Store({
         name: "Bootstrap",
         image: require("@/assets/icons/Bootstrap.png"),
       },
-      
+
     ],
     Activities: [
       {
@@ -219,8 +235,13 @@ export default new Vuex.Store({
       },
       {
         from: new Date(2020,11),
-        title: "벙커키즈 프론트엔드 개발자 입사,",
+        title: "벙커키즈 입사",
         description: "스타트업 벙커키즈의 프론트엔드 개발자로 입사하여, Web, App 개발을 하고있음. 주 개발스택은 React, React-Native를 사용하고 있으며, 현재 메인 서비스로 운영중."
+      },
+      {
+        from: new Date(2021, 9),
+        title: "마이리얼트립 입사",
+        description: "마이리얼트립의 프론트엔드 개발자로 입사하여 활동중."
       }
     ],
     Project: [
