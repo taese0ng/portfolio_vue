@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
@@ -54,7 +54,7 @@ export default new Vuex.Store({
         href: "https://velog.io/@taese0ng",
         target: "_blank",
         rel: "noopener",
-        name: "velog.taese0ng"
+        name: "velog.taese0ng",
       },
       {
         id: 6,
@@ -120,21 +120,16 @@ export default new Vuex.Store({
         image: require("@/assets/Prize/Paper2.png"),
       },
       {
-        id:4,
-        name: 'OPIC IH',
-        image: require("@/assets/Prize/Opic.png")
-      }
+        id: 4,
+        name: "OPIC IH",
+        image: require("@/assets/Prize/Opic.png"),
+      },
     ],
     Languages: [
       {
         id: 0,
         name: "Vue",
         image: require("@/assets/icons/Vue.png"),
-      },
-      {
-        id: 1,
-        name: "Vuetify",
-        image :require("@/assets/icons/Vuetify.png")
       },
       {
         id: 2,
@@ -148,25 +143,29 @@ export default new Vuex.Store({
       },
       {
         id: 4,
-        name : "JavaScript",
-        image: require("@/assets/icons/JavaScript.png")
+        name: "JavaScript",
+        image: require("@/assets/icons/Javascript.png"),
       },
       {
         id: 5,
+        name: "TypeScript",
+        image: require("@/assets/icons/Typescript.png"),
+      },
+      {
+        id: 6,
         name: "HTML",
         image: require("@/assets/icons/HTML.png"),
       },
       {
-        id: 6,
-        name : "CSS",
-        image: require("@/assets/icons/CSS.png")
+        id: 7,
+        name: "CSS",
+        image: require("@/assets/icons/CSS.png"),
       },
       {
-        id: 7,
-        name: "Bootstrap",
-        image: require("@/assets/icons/Bootstrap.png"),
+        id: 8,
+        name: "Svelte",
+        image: require("@/assets/icons/Svelte.png"),
       },
-
     ],
     Activities: [
       {
@@ -226,27 +225,30 @@ export default new Vuex.Store({
       {
         from: new Date(2020, 2),
         title: "셈틀꾼 멘토",
-        description:"컴퓨터공학과 학술동아리 '셈틀꾼'에서 20학년도 신입생을 대상으로 Python 전공과목 멘토를 진행함."
+        description:
+          "컴퓨터공학과 학술동아리 '셈틀꾼'에서 20학년도 신입생을 대상으로 Python 전공과목 멘토를 진행함.",
       },
       {
         from: new Date(2020, 6),
         title: "셈틀꾼 웹프로그래밍 멘토",
-        description: "컴퓨터공학과 학술동아리 '셈틀꾼'에서 동아리원을 대상으로 'html', 'css', 'javascript'등 Web FrontEnd 멘토링을 진행함."
+        description:
+          "컴퓨터공학과 학술동아리 '셈틀꾼'에서 동아리원을 대상으로 'html', 'css', 'javascript'등 Web FrontEnd 멘토링을 진행함.",
       },
       {
-        from: new Date(2020,11),
+        from: new Date(2020, 11),
         title: "벙커키즈 입사",
-        description: "스타트업 벙커키즈의 프론트엔드 개발자로 입사하여, Web, App 개발을 하고있음. 주 개발스택은 React, React-Native를 사용하고 있으며, 현재 메인 서비스로 운영중."
+        description:
+          "스타트업 벙커키즈의 프론트엔드 개발자로 입사하여, Web, App 개발을 하고있음. 주 개발스택은 React, React-Native를 사용하고 있으며, 현재 메인 서비스로 운영중.",
       },
       {
         from: new Date(2021, 9),
         title: "마이리얼트립 입사",
-        description: "마이리얼트립의 프론트엔드 개발자로 입사하여 활동중."
-      }
+        description: "마이리얼트립의 프론트엔드 개발자로 입사하여 활동중.",
+      },
     ],
     Project: [
       {
-        id:1,
+        id: 1,
         name: "CoronaCatch",
         // src: "https://www.coronacatch.com/home",
         git: "https://github.com/taese0ng/CoronaCatch",
@@ -258,7 +260,7 @@ export default new Vuex.Store({
           "'Vue.JS를 이용한 프론트엔드 개발'",
           "'마스크맵 구축'",
           "'ssh 인증 및 네이버 클라우드 플랫폼 사용'",
-          "'2020/02 ~ 2020/08 마스크API 종료로인한 서비스 종료'"
+          "'2020/02 ~ 2020/08 마스크API 종료로인한 서비스 종료'",
         ],
         mainImg: require("@/assets/Project/Coronacatch/CoronaCatch.png"),
         img: [
@@ -269,7 +271,7 @@ export default new Vuex.Store({
           require("@/assets/Project/Coronacatch/5.png"),
           require("@/assets/Project/Coronacatch/6.png"),
         ],
-        thesis : null,
+        thesis: null,
       },
       {
         id: 2,
@@ -283,7 +285,7 @@ export default new Vuex.Store({
           "'React.JS를 이용한 프론트엔드 개발'",
           "PWA 적용 웹앱 구현완료",
           "'BootStrap 적용'",
-          "'2020/10/1 부로 폐쇄'"
+          "'2020/10/1 부로 폐쇄'",
         ],
         mainImg: require("@/assets/Project/KUMOCraft/KUMOCraft.png"),
         img: [
@@ -293,7 +295,7 @@ export default new Vuex.Store({
           require("@/assets/Project/KUMOCraft/4.png"),
           require("@/assets/Project/KUMOCraft/5.png"),
         ],
-        thesis : null,
+        thesis: null,
       },
       {
         id: 3,
@@ -323,7 +325,8 @@ export default new Vuex.Store({
           require("@/assets/Project/MAPMO/10.png"),
           require("@/assets/Project/MAPMO/11.png"),
         ],
-        thesis : "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09273306",
+        thesis:
+          "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09273306",
       },
       {
         id: 4,
@@ -346,11 +349,10 @@ export default new Vuex.Store({
           require("@/assets/Project/SemtleProject/3.png"),
           require("@/assets/Project/SemtleProject/4.png"),
           require("@/assets/Project/SemtleProject/5.png"),
-          require("@/assets/Project/SemtleProject/6.png")
+          require("@/assets/Project/SemtleProject/6.png"),
         ],
-        thesis : null,
+        thesis: null,
       },
-
     ],
   },
   getters: {
